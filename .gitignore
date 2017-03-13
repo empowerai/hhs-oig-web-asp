@@ -23,7 +23,3 @@ node_modules/
 *.lck
 *.config
 *.log
-
-# reports
-**/reports/**
-**/docs/**
