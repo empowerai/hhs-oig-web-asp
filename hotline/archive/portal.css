@@ -1,0 +1,59 @@
+#header {height:178px;} 
+#mainBody {background:none; padding-top:5px;}
+#footerBottomContent {background-position:0 25px;}
+#rightSide {margin:-10px 20px 0 0;}
+
+/* Custom Call to Action Buttons */
+a.buttonReportFraud {
+height: 109px;
+width: 278px;
+background: url(../../images/buttonReportFraud.png) no-repeat 0 0;
+display: block;
+margin: 0 10px 0 12px;
+float: right;
+clear: both;
+	}
+	a.buttonReportFraud span {
+	position: relative;
+	left: -99999px;
+	float: left;
+	}
+	a.buttonReportFraud:hover {
+  filter: progid:DXImageTransform.Microsoft.gradient(
+        startColorstr=#00FFFFFF, endColorstr=#00FFFFFF
+    );
+	opacity: 1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; 	
+	text-decoration: none;
+	}
+	a.buttonReportFraud:active, a.buttonReportFraud:focus {
+	background-position: -274px 0;
+	outline: #fff;
+	}
+  
+a.buttonSubmitQ {
+height: 109px;
+width: 278px;
+background: url(../../images/buttonSubmitQ.png) no-repeat 0 0;
+display: block;
+margin: 5px 10px 0 12px;
+float: right;
+clear: both;
+	}
+	a.buttonSubmitQ span {
+	position: relative;
+	left: -99999px;
+	float: left;
+	}
+	#rightSide a.buttonSubmitQ:hover {
+    filter: progid:DXImageTransform.Microsoft.gradient(
+        startColorstr=#00FFFFFF, endColorstr=#00FFFFFF
+    );
+	opacity: 1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; 	
+	text-decoration: none;
+	}
+	a.buttonSubmitQ:active, a.buttonReportFraud:focus {
+	background-position: -274px 0;
+	outline: #fff;
+	}  
