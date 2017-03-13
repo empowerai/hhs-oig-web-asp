@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <rss version="2.0">
+ <channel>
+ <title>Podcasts | Office of Inspector General | U.S. Department of Health and Human Services</title>
+ <link>http://oig.hhs.gov/newsroom/podcasts/index.asp</link>
+ <description>Need to write a description, Ms. Jane</description>
+ 
+ <item>
+ <title>Medicare Payments for Swing-Bed Services at Critical Access Hospitals</title>
+ <link>http://oig.hhs.gov/newsroom/podcasts/reports.asp#swing</link>
+ <description>March 9, 2015 | Brian Anderson, a senior auditor for the Office of Audit Services, is interviewed by Clemente Torres, a senior auditor in Chicago.</description>
+ <guid>http://oig.hhs.gov/newsroom/podcasts/reports.asp#swing</guid>
+ </item>
+ 
+ </channel>
+ </rss>
