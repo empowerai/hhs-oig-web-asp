@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Colors and typefaces of text */
+
+#heatpct h1, h2, h3, h4, h5 {	
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	}
+
+#heatpct  h1 {
+	font-size:15px;
+	}
+
+#heatpct h2 {
+	color: #7F1637;
+	font-size:14px;
+	}
+
+.h2Reg {
+	color: #7F1637;
+	font-size:14px;
+	}
+
+#heatpct  h3 {
+	color:#7F1637;
+	font-size:13px;
+	}
+
+#heatpct  h4 {
+	color:#7F1637;
+	font-size:12px;
+	}
+
+	
+.required {
+	 font-size:9px;
+	 color:red; 
+	 font-style:italic;
+ }
+ 
+ .review_table {	
+ 	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	font-size:9pt;
+	color: #595445;
+	color:#333333;
+	 }
+ 
+ .error {
+	color:red; 
+	}
+  
+  .error2 {
+ 	font-size:18px;
+	color:red;
+	}
+
+#heat_footer {background:#000; width:749px; padding:1px 0 !important; margin-top:15px;}
+
+#capsule #content #heatpct a {text-decoration:none; color:#CC3300 !important;	border:0;}
+#capsule #content #heatpct a:hover { text-decoration:underline; color:#CC3300; border:0 !important;}
+#capsule #content #heatpct a:visited { text-decoration:none; color:#CC3300; border:0 !important;}
+
+.footerText { text-decoration:none; color:#fff; margin-left:20px; vertical-align:middle; font-size:11px;	}

@@ -1,0 +1,26 @@
+
+h1 {letter-spacing:-1px;}
+
+.roadsign {color:#2A2A2A}
+.physedh2 {color:#131313; font-weight:bold; font-size:12pt; margin:10px;}
+.standout {color:#DD6700; font-weight:bold; font-size:11pt; line-height:1.2;}
+.callbox {padding:4px 6px; background:#e7e7e7; border:1px solid #ccc; margin:20px auto; width:500px;}
+.largebox {margin-left:20px; width:450px;}
+
+.cases {color:#000; text-transform:uppercase;}
+.cases img {padding-bottom:5px;}
+
+.next {margin-left:20px; margin-bottom:20px;}
+#content div.next p {margin:0;padding-top:10px;}
+
+
+/* bullets */
+.yeild {list-style-image: url(./images/bullet_yeild.png)}
+.circle {list-style-image: url(./images/bullet_circle.png)}
+.question {list-style-image: url(./images/bullet_question.png)}
+.arrow {list-style-image: url(./images/bullet_arrow.png)}
+
+/* table */
+.generic_table {background:#fff; width:480px; margin:0 20px;}
+.generic_table th, .generic_table td {border:1px solid #ccc; border-collapse:collaspe;}
+.generic_table th {text-align:left; background:#eee;} 
