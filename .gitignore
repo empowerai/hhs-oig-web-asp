@@ -1,0 +1,23 @@
+# assets
+*.pdf
+*.png
+*.gif
+*.jpg
+*.jpeg
+*.zip
+*.csv
+*.xls
+*.svg
+*.mp3
+
+# exec
+*.exe
+*.dll
+*.db
+*.backup
+*.lck
+*.config
+
+# reports
+**/reports/**
+**/docs/**
