@@ -1,0 +1,59 @@
+
+
+#juri-list h1 
+{
+background:none; 
+padding-bottom:0; 
+border-bottom:1px solid #CFCFCF; 
+color:#536070 !important;
+} 
+
+#juri-list h2 
+{
+font-weight:normal !important; 
+color:#536070 !important; 
+font-size: 16px; 
+margin-bottom:15px; 
+margin-left:25px; 
+padding-bottom:0;
+}
+
+#juri-list p.return 
+{
+margin-top:15px;
+}
+
+#report-related 
+{
+margin-left:15px; 
+margin-top:10px;
+}
+
+#subNav #report-related ul 
+{
+margin-left: 5px; 
+margin-bottom:10px; 
+list-style-image:none; 
+background:transparent; 
+}
+
+#subNav #report-related li
+{
+background: transparent url("/images/buttonArrow.gif") no-repeat scroll 0 8px !important;  
+padding: 0 0 0 18px;
+margin:0;
+border-bottom: 1px solid transparent; 
+}
+
+#subNav #report-related li a:hover 
+{
+background:none; 
+padding-left:2px; 
+border:0;
+}
+
+h1#report-meta 
+{
+background:none; 
+padding-bottom:0;
+}
