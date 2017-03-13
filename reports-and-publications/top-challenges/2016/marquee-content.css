@@ -1,0 +1,18 @@
+
+body {margin:0; padding:8px 8px 8px 18px; background: transparent;}
+
+#fr-container  {width:510px; background: transparent;}
+iframe {background:#fff}
+
+h1, h2, h3, p, li {font-family: Arial,Trebuchet MS,sans-serif;}
+
+
+h1 {}
+h2 {margin-top:0; padding-top:0; font-size:14px; color: #272727/* #536070 */; margin-bottom:7px;}
+h3 {margin-top:0; padding-top:0; font-size:11pt;}
+p {font-size:12px; margin-bottom:9px; margin-top:0; padding:0 20px 0 0; line-height:1.5em; color: #272727;}
+a {font-size:13px; }
+
+
+
+

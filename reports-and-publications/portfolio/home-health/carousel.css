@@ -1,0 +1,42 @@
+/* Carousel Mods */
+
+#show-holder {
+position:relative;
+/* background:url(/fraud/child-support-enforcement/images/carousel-bg.png) 0 0 no-repeat; */
+/* width:420px; */
+width:100%;
+padding-left:8px;
+height: 200px;
+}
+
+.stepcarousel{
+position: relative; /*leave this value alone*/
+/* width: 385px; */ /*Width of Carousel Viewer itself*/
+width:560px;
+height: 190px; /*Height should enough to fit largest content's height*/
+}
+
+.belt{
+position: absolute; /*leave this value alone*/
+left: 0;
+top: 0;
+padding-left:4px;
+}
+
+.panel{
+position:relative;
+z-index:2;
+float: left; /*leave this value alone*/
+overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/
+margin: 10px 3px 10px 0; /*margin around each panel*/
+width: 125px; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */
+height:172px;
+}
+
+.caption {position:absolute; z-index:10; top:140px; left:0; width:125px;}
+.captured {background:#C8331F url(/fraud/child-support-enforcement/images/captured-texture.png); font: bold 12pt arial; width:98%; height:15px; padding-top:2px; letter-spacing:2px;} 
+.caption p {margin:0; color:#fff;  padding-left:4px; font-size:11px; background:transparent;}
+.belt ul {padding:0 !important; background:none !important; margin:0 !important;}
+.belt ul li {padding:0 !important; background:none !important; margin:0 !important;}
+.next {position:absolute; top:95px; /* left:384px; */ left:560px; z-index:120; cursor:pointer;}
+.prev {position:absolute; top:95px; left:8px; z-index:120; cursor:pointer;}
