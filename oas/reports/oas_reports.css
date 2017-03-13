@@ -1,0 +1,9 @@
+* {font-family:Verdana}
+
+body {margin:10px auto; text-align:center; background:#e7e7e7}
+#capsule {text-align:left; width:660px; padding:20px 40px; border:1px solid #ccc; background:#fff; margin:0 auto}
+h1 {font-size:14pt;}
+h2 {font-size:12pt;}
+h3 {font-size:10pt}
+.line {border-bottom:1px solid #ccc}
+p {font-size:10pt;}
