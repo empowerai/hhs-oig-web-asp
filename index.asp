@@ -85,7 +85,7 @@ jQuery(document).ready(function(){
 <div id="bodyContainer" style="background-position:auto 100px !important;" class="mobilized">
 
 
-<!--#include virtual="/includes/auto-deploy.asp" -->   
+  
 
 
 <!--===============  [ MOBILE BANNER ]  ===============-->
