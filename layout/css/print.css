@@ -1,0 +1,29 @@
+body {background:#fff;}
+
+*, h1, h2, h3, p, dd, dt  {color:#000 !important;}
+
+* {background-image:none !important;}
+#content {width:100%; padding:0; margin:0;}
+#rightSide, #header, #footerContainer,  #footerBottomContainer, #breadcrumbs {
+display: none;
+}
+#leftContentInterior {
+width: 100%;
+}
+a.print {
+display: none;
+}
+
+.cmp-authorities {
+margin-left:8px !important;
+
+}
+
+.cmp-authorities th {
+border:1px solid black !important;
+background:#ccc !important;
+}
+
+.cmp-authorities td {
+border:1px solid black !important;
+}

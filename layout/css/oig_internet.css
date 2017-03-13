@@ -1,0 +1,644 @@
+body {margin:0 0 10px 0; background:#a0a0a0 url(http://oig.hhs.gov/images/background_runner.png) top left repeat-x;}
+
+p, dd, blockquote, dt, h2, h3, td, th, ul, ol, li, div  {font-family: Arial, Geneva, sans-serif; line-height:1.6; color:#222;}
+strong {color:#444;}
+
+tr {vertical-align:top}
+
+h1 {font:bold 14pt Verdana, Geneva, sans-serif; margin:0 10px 15px 10px; color: #006699; background:transparent}
+h1 .secondary_header {font-size:10pt}
+h1 .email_me {font:normal 9pt Arial, Geneva, sans-serif, sans-serif; color:#555; display:block; margin-bottom:20px;}
+#content h1 .email_me a {color:#555 !important;}
+#content h1 .email_me a:hover {color:#c43600 !important; border-color:#c43600 !important;}
+
+.sectioned h2 {font:bold 10pt Verdana, Geneva, sans-serif; background:#fff url(http://oig.hhs.gov/images/h2_corner.gif) top right no-repeat; color:#fff; padding:2px 0 0 10px; width:300px; margin:20px 0 10px 0; height:20px;}
+
+h2.line {font:bold 10pt Tahoma, Geneva, sans-serif; border-bottom:1px solid #ccc; color: #006699; background:#fff; padding:0; margin:20px 10px 10px 10px; width:70%; height:auto;}
+h2.line + ul.simplegray {margin-top:5px;}
+.criminal h2 {font:bold 10pt Tahoma, Geneva, sans-serif; border-bottom:1px solid #ccc; color: #006699; background:#fff; padding:0; margin:20px 10px 10px 10px; width:70%; height:auto;}
+
+h2 + table {margin-top:0 !important}
+h2 .secondary_header {font-size:9pt; font-weight:normal; color:#656565; font-family: Arial, Geneva, sans-serif;}
+
+h3 {font:bold 9pt Tahoma, Geneva, sans-serif; margin:0 10px 5px 10px; color: #006699; background:transparent}
+
+acronym {cursor:help; border-bottom:1px dotted #aaa}
+table {margin-top:15px;}
+blockquote {background:#e7e7e7; padding:5px;}
+blockquote img {vertical-align:-6px;}
+
+cite {white-space:nowrap; font-style:normal}
+
+#capsule {margin:0 auto; width:749px; background:#fff;}
+
+/* Banner New */
+#banner {height:89px; width:749px; padding:0; margin:0; background:url(http://oig.hhs.gov/images/banner.png) top left no-repeat; position:relative; z-index:2}
+#banner .return {position:absolute; top:3px; left:7px; z-index:999; border:0; margin:0; padding:0; line-height:0;}
+#banner .return img {width:720px; height:66px;}
+#banner h1 {display:inline}
+#banner span {display:none}
+#banner img {margin:0; padding:0; border:none;}
+
+a.skip_pixel {border:0 !important; background:transparent !important}
+
+/* Font Resizer */
+#sizer {margin:0; position:absolute; top:2px; left:749px; width:100px; z-index:3}
+#sizer a {display:block; width:17px; height:24px; border:0;}
+#sizer a span {display:none;}
+#sizer a.skip_nav {background:url(http://oig.hhs.gov/images/skip_normal.gif) top left no-repeat}
+#sizer a.skip_nav:hover {width:84px; background:url(http://oig.hhs.gov/images/skip_over.gif) top left no-repeat;}
+#sizer a.increase {background:url(http://oig.hhs.gov/images/increase_normal.gif) top left no-repeat;}
+#sizer a.decrease {background:url(http://oig.hhs.gov/images/decrease_normal.gif) top left no-repeat;}
+#sizer a.increase:hover {background:url(http://oig.hhs.gov/images/increase_over.gif) top left no-repeat;}
+#sizer a.decrease:hover {background:url(http://oig.hhs.gov/images/decrease_over.gif) top left no-repeat;}
+
+/* Index Mods */
+/* .top_links .links {background:#e7e7e7; border:1px solid #ccc; padding:4px 4px 0 14px; line-height:2.5; width:190px}
+.top_links a {vertical-align:5px; border-bottom:#bcbcbc !important;} */
+.top_links {background:#e7e7e7; width:520px; border:1px solid #ccc; border-left:0;}
+.top_links td {padding:4px 4px 4px 12px;}
+.top_links a {vertical-align:5px; border-bottom:#bcbcbc !important;}
+
+
+/* Index nav container */
+#nav_container {float:right; width:160px; margin:0 0 10px 0;}
+
+#quicklinks ul {list-style-type:none; list-style-image:none; margin-left:0; margin-bottom:0; padding:0;}
+#quicklinks li {margin-bottom:0px; line-height:1.3;}
+
+/* Pre-navigation Box */
+#prenav {width:155px; margin-right:8px; }
+#prenav p {margin:2px 3px 0 0; font-size:10pt;} /* << See inline style (/layout/nav_indexv2.asp) for IE conditional margin. This one is for Ff. */
+#prenav img {vertical-align:-2px;}
+#prenav a {text-decoration:none; border-bottom:1px solid #d6d6e8; color:#002283}
+#prenav a:visited {border-bottom:1px solid #ddd; color:#555;}
+#prenav a:visited:hover {color:#0000ff}
+#prenav a:hover {border-bottom:1px solid #9696ff !important; color:#0000ff !important;}
+#prenav a.img_link,
+#prenav a.img_link:visited,
+#prenav a.img_link:visited:hover,
+#prenav a.img_link:hover
+{border-bottom:0 !important;}
+
+/* Navigation v2 */
+#navigationv2 {width:165px; margin:0 0 10px 20px; background:#d6d6d6 url(http://oig.hhs.gov/images/nav_background.gif) left top no-repeat; border-bottom:1px solid #006699}
+#navigationv2 ul {margin:10px 0 0 0; padding:0; list-style-type:none;}
+#navigationv2 li {margin:0; padding:0}
+#navigationv2 a {display:block; width:155px; padding:4px 0 6px 10px; font:bold 8pt Tahoma, Geneva, sans-serif; text-decoration:none; color:#003366; background:transparent}
+#navigationv2 a:hover {background:#e7e7e7; border:0;}
+
+
+
+/* Navigation */
+#navigation {float:right; width:165px; margin:0 0 10px 20px; background:#d6d6d6 url(http://oig.hhs.gov/images/nav_background.gif) left top no-repeat; border-bottom:1px solid #006699}
+#navigation ul {margin:10px 0 0 0; padding:0; list-style-type:none;}
+#navigation li {margin:0; padding:0}
+#navigation a {display:block; width:155px; padding:4px 0 6px 10px; font:bold 8pt Tahoma, Geneva, sans-serif; text-decoration:none; color:#003366; background:transparent}
+#navigation a:hover {background:#e7e7e7; border:0;}
+
+/* Secondary Navigation */
+#navigation ul li ul {margin:0; padding:2px 0 0 0; background:#9e9e9e url(http://oig.hhs.gov/images/navigation_secondary.gif) top left repeat-y; width:auto; border-left:5px solid #fff; border-bottom:1px solid #aaa; border-top:1px solid #aaa; border-right:1px solid #a0a0a0}
+#navigation ul li ul li {margin:1px 0; padding:0;}
+#navigation ul li ul li a {margin:0; width:150px; padding:3px 0 4px 10px; font:normal 8pt Tahoma, Geneva, sans-serif; text-decoration:none; color:#003366; background:transparent}
+#navigation ul li ul li a:hover {border:0 !important}
+
+
+/* Index Navigation */
+#index_navigation {float:left; width:165px; margin:0 20px 20px 0; background:#d5e6f2 url(http://oig.hhs.gov/images/navigation_corner_left.gif) right top no-repeat; border-bottom:1px solid #006699}
+#index_navigation ul {margin:10px 0 10px 0; padding:0; list-style-type:none; width:165px}
+#index_navigation li {margin:0; padding:0}
+#index_navigation a {display:block; width:155px; padding:4px 0 6px 10px; font:bold 8pt Tahoma, Geneva, sans-serif; text-decoration:none; color:#003366; background:transparent; border:0;}
+#index_navigation a:hover {background:#accde4; border:0 !important;}
+
+
+/* SearchBox */
+#search_box {background:#D5E6F2; padding:10px; margin-top:5px; border-top:1px solid #006699; width:145px;}
+#search_box form {margin:0;}
+#search_box a {display:inline; width:auto; padding:0; font-weight:normal; text-decoration:underline;}
+#search_box a:hover {background:transparent; color:#000066; text-decoration:none}
+#search_box label {margin:0 0 2px 0; font-size:8pt; font-weight:bold; display:block;}
+#search_box #searchbox {border:1px solid #8b8b8b; float:left; margin-right:4px; width:110px}
+#search_box #btnG {float:left;}
+#search_box p .google {font-size:7pt; text-decoration:none; clear:both;}
+#search_box a.google:hover {background:#f1f1f1;}
+
+
+/* Content */
+
+/* Anchors */
+#content a {text-decoration:none; border-bottom:1px solid #d6d6e8; color:#002283}
+#content a:visited {border-bottom:1px solid #ddd; color:#555;}
+#content a:visited:hover {color:#0000ff}
+#content a:hover {border-bottom:1px solid #9696ff !important; color:#0000ff !important;}
+
+#content a.img_link,
+#content a.img_link:visited,
+#content a.img_link:visited:hover,
+#content a.img_link:hover
+{border-bottom:0 !important;}
+
+#content dl a {text-decoration:none; border-bottom:1px solid #d6d6e8; color:#002283;}
+
+#content dl a:hover {border-bottom:1px solid #9696ff !important; color:#0000ff !important;}
+/* Acronym in a link */
+#content dd a acronym {font-size:9pt; color:#003e84}
+
+#content dl a:hover acronym {color:#0000ff !important;}
+
+#content #pdf a {color:#696970; border-bottom:1px solid #ddd;}
+#content #pdf a:hover {border-bottom:1px solid #9696ff; color:#0000ff;}
+
+#content .sections ul li a {color:#0d0d45; padding-left:4px}
+
+#content p.breadcrumb a {color:#696970; border-bottom:0; font-size:7pt;}
+
+#content.faq ul.faq li a {border:0; line-height:1.4}
+
+#content acronym.file_type a {font-size:7pt; color:#656565; border:0; cursor:help}
+
+.onthispage a {font-size:7pt; border-bottom:0 !important; color:#0d0d45}
+
+#cia_list a {border:0; line-height:1.2; font-size:8pt;}
+
+#content.career dl a {color:#0d0d45}
+
+#content ul li.hotline a {color:#990000 !important; border-bottom:1px solid #f4b19a;}
+
+#footer a {color:#003366; text-decoration:none; border:0; word-spacing:1px;}
+
+
+
+#content {font:normal 9pt Arial, Geneva, sans-serif; padding-right:30px;}
+#content p, ul, ol {font:normal 9pt Arial, Geneva, sans-serif, sans-serif; line-height:1.6;}
+#content p {margin:10px 10px 15px 12px}
+
+#content dl {margin-left:10px; margin-bottom:20px; padding-right:40px;}
+
+#content dt {margin-bottom:7px; margin-top:30px; font:bold 8pt Tahoma, Geneva, sans-serif; color:#001f49;}
+#content dl > *:first-child {margin-top:10px;} 
+#content dd {font:normal 9pt Arial, Geneva, sans-serif; margin-left:20px; margin-bottom:10px; margin-right:20px; display: list-item; list-style-image:url(http://oig.hhs.gov/images/bullet_simplegray.gif); line-height:1.6}
+#content dd ol li {list-style-type:decimal; list-style-image:none;}
+#content dd acronym[title="Portable Document Format"] {font-size:7pt; color:#656565; border:0;}
+#content dd em {font-size:8pt}
+#content dd dl {margin-left:0px;}
+#content dd dl dd {margin-bottom:6px;}
+#content dd.suppliment {list-style-image:url(http://oig.hhs.gov/images/icon_archive.gif);}
+#content dd ul.simplegray {margin-left:15px; margin-top:6px; padding:0;}
+
+/* Breadcrumbs */
+#content p.breadcrumb {margin:0 10px 4px 10px; font:normal 7pt Arial, Geneva, sans-serif; color:#696970}
+#content p.breadcrumb a:visited {color:#696970;}
+#content p.breadcrumb a:hover {border-bottom:1px solid #9696ff; color:#0000ff}
+
+/* Notifications */
+#content #pdf {font:normal 7pt Arial, Geneva, sans-serif; color:#696970}
+#content #historical img {vertical-align: -3px;}
+#content #historical  {color:#016701;}
+
+/* Lists */
+#content ul.lowmargin {margin-left:27px; margin-top:10px; padding-left:0}
+#content ul li {margin-bottom:6px;}
+#content ul.grayorb {list-style-type:none; list-style-image:url(http://oig.hhs.gov/images/bullet_grayorb.gif); margin-top:10px;}
+#content ul.simplegray {list-style-type:none; line-height:1.6;}
+#content ul.simplegray li {list-style-image:url(http://oig.hhs.gov/images/bullet_simplegray.gif);}
+#content ul.flush_list {list-style-type:none; margin:5px; padding:0}
+#content ul ol {list-style-image:none; margin-top:4px}
+
+#content .sections ul {list-style-type:none; margin-left:10px; padding:0}
+#content .sections ul li {line-height:1.4; margin-bottom:6px}
+#content .sections ul li a:hover {border-bottom:1px solid #9696ff; color:#0000ff;}
+#content .sections ul ul {list-style-type:none; margin:2px 0 0 10px; border-left:1px solid #ccc; padding:0}
+#content .sections ul ul li {padding:2px 0 2px 0;line-height:1.4; margin-bottom:6px}
+#content .sections h3 {margin:0; font-size:9pt; padding:2px 4px; background:#a0a0a0 url(http://oig.hhs.gov/images/bullet_sections.gif) top left no-repeat; color:#003366}
+
+/* Hotline */
+.hotline {color:#990000 !important;}
+#footer a.hotline:hover {color: #990000 !important; border-bottom:1px solid #990000 !important}
+/* #content ul li.hotline {list-style-image:url(./images/icon_hotline.gif)} */
+#content ul li.hotline a:hover {color: #990000 !important; border-bottom:1px solid #990000 !important}
+
+/* Advisory Opinions */
+#content.advisoryopinions h2 {font-size:10pt; color:#001f49; border-bottom:1px solid #ddd; background:#fff; padding:0; margin:10px; width:auto !important}
+
+/* FAQ */
+#content.faq {padding-right:20px;}
+#content.faq h2 {width:95%}
+#content.faq h3 {font-size:10pt; color:#293b53; background:#fff; padding:0; margin:10px; width:95%; height:auto; padding:0;}
+#content.faq ul.faq {margin-bottom:30px;}
+#content.faq ul.faq li {line-height:1.4}
+#content.faq ul.faq li ul li {line-height:1.3}
+#content.faq ul.faq ul {margin-top:5px;}
+#content.faq ul.faq li a:hover {color:#0000ff;}
+#content.faq p {margin-left:25px;}
+#content.faq p.breadcrumb {margin-left:10px;}
+#content.faq ol {margin-top:0;}
+#content.faq ol li {margin-left:40px; margin-bottom:4px;}
+
+
+/* Generic Search */
+#generic_search {width:165px; height:64px; margin:9px 0px 25px 10px; padding:5px; float:right; padding-bottom:3px; padding-left:14px; background:url(http://oig.hhs.gov/images/search_background.gif) top left no-repeat; margin-top:10px}
+#generic_search p {margin:0 0 5px 0; color:#555; font-size:8pt}
+#generic_search input.text {border:1px solid #aaa !important; font-size:7pt; color:#555; float:left;}
+#generic_search .go {display:inline; vertical-align:-2px}
+#generic_search form {margin:0; padding:0;}
+
+/* Generic Box */
+#content .generic_box {float:right; margin:0 0 5px 10px; width:190px; border:1px solid #b2d6e7}
+#content .generic_box p {font-size:8pt; margin:10px}
+#content .generic_box ul {padding:0; list-style-type:none; margin:0 10px 5px 10px}
+#content .generic_box li {margin-bottom:10px;}
+/* Headed Box */
+#content .headed_box * {font-size:8pt; line-height:1.3;}
+#content .headed_box {float:right; margin:0 0 5px 10px; width:189px;}
+#content .headed_box tr {vertical-align:top}
+#content .headed_box th {text-align:left; background: url(http://oig.hhs.gov/images/headed_boxtop.gif) top left no-repeat; padding:4px 0 4px 10px; color:#404040;}
+#content .headed_box h4 {font:bold 8pt Tahoma, Geneva, sans-serif; margin:10px 5px 5px 5px; color: #006699; border-bottom:1px solid #ccc; background:transparent}
+#content .headed_box td {border:1px solid #dbdbdb; border-top:0 !important; background:#fff url(http://oig.hhs.gov/images/headed_boxbottom.gif) bottom left repeat-x} 
+#content .headed_box td td {border:0;}
+#content .headed_box dl {margin-left:5px; margin-bottom:5px; padding-right:0px;}
+#content .headed_box dd {margin-left:5px; margin-bottom:5px; margin-right:5px;}
+#content .headed_box p {margin:10px}
+#content .headed_box ul {padding:0; list-style-type:none; margin:7px 10px 5px 10px}
+#content .headed_box li {margin-bottom:10px;}
+#content .headed_box ul li ul {border-left:1px solid #ddd; padding-left:5px; margin-top:0; padding-top:5px; margin-left:3px;}
+
+#content table[class="headed_box"] + h2 {width:10px}
+
+
+#content acronym.file_type {font-size:7pt; color:#656565; border:0;}
+.file_type {font-size:7pt; color:#656565; border:0;}
+
+/* Search OEI */
+#search_oei {border:1px solid #b2d6e7; width:200px; margin:10px 10px 25px 10px; padding:5px;}
+#search_oei #searchbox {display:inline; width:150px; margin-top:3px}
+#search_oei .go {display:inline; vertical-align:-1px}
+#search_oei form {margin:0; padding:0;}
+
+
+/* OEI Subjects */
+#oei_subjects ul {margin-right:50px}
+#oei_subjects h2 {background:#d5e6f2 url(http://oig.hhs.gov/images/h2_corner_blue.gif) top right no-repeat; font-size:10pt; padding:2px 0 0 10px; width:545px; color:#001f3f; height:20px}
+#oei_subjects li {line-height:1.5; margin-bottom:12px; color:#656565}
+.onthispage {margin:15px 10px; padding:0;}
+.onthispage th {text-align:left; border-bottom:1px solid #a8d4f2; color:#001f3f}
+.onthispage a:hover {border-bottom:1px solid #9696ff !important; color:#0000ff !important;}
+.onthispage ul li {margin-bottom:5px !important;  line-height:.9 !important}
+.onthispage td {background:#d5e6f2 url(http://oig.hhs.gov/images/bg_onthispage.gif) top left repeat-x;}
+#content .simplegray .crossref {list-style-image:url(http://oig.hhs.gov/images/bullet_seealso.gif) !important;}
+#content .simplegray .crossref ul {margin-left:20px !important; padding:0 !important;}
+#content .simplegray .crossref ul li {list-style-image:url(http://oig.hhs.gov/images/bullet_seealso.gif) !important;}
+
+/* OAS Reports */
+.oas_reports h2 {font-size:10pt; font-family:Verdana; color:#001f49; background:#fff; padding:0; margin:10px; width:95%; height:auto; padding:0; width:auto;}
+.oas_reports h2:first-line {font-weight:normal;}
+.oas_reports h2.line {color: #006699; margin-top:20px; width:auto;}
+.oas_reports h2.line:first-line {font-weight:bold !important;}
+
+/* CIA Pages */
+#cia_list {margin:0 10px; width:auto}
+#cia_list tr {vertical-align:top}
+#cia_list th {text-align:left; color:#006699}
+#cia_list td {padding:5px 2px; line-height:1.2; font-size:8pt;}
+#cia_list .even {background:#e7e7e7}
+#cia_list .odd {background:#fff}
+#cia_list .provider {padding:0; background: #fff; border-top:1px solid #e7e7e7}
+#cia_list .provider h2 {font-size:14pt; margin:15px 0 0 0; padding:0 0 5px 3px; width:100%; background:url(http://oig.hhs.gov/images/cia_header_runner.gif) bottom left repeat-x}
+#cia_list .provider .jump_to {vertical-align:1px; word-spacing:.07em;}
+#content .misconduct li {margin-bottom:20px;}
+
+/* Exclusions */
+.exclusions {margin:0 10px; width:auto; font-size:8pt; table-layout:fixed}
+.exclusions .bordering {border-right:1px solid #e7e7e7}
+.exclusions tr {vertical-align:top;}
+.exclusions th {text-align:left; color:#006699; border-bottom:1px solid #e7e7e7; background:#e9e9e9;}
+.exclusions td, a {line-height:1.2;}
+.exclusions a {border:0}
+.exclusions td {padding:5px 2px; border-bottom:1px solid #e7e7e7}
+.exclusions .even {background:#e7e7e7}
+.exclusions .odd {background:#fff}
+.exclusions .provider {padding:0; background: #fff; border-top:1px solid #e7e7e7}
+.exclusions .provider h2 {font-size:14pt; margin:15px 0 0 0; padding:0 0 5px 3px; width:100%; background:url(http://oig.hhs.gov/images/cia_header_runner.gif) bottom left repeat-x}
+.exclusions .provider .jump_to {padding-left:5px; vertical-align:1px; word-spacing:.07em}
+.leie_download_date strong {color:#777 !important; font-family:Tahoma; display:block; background:#f1f1f1; padding:4px; border:1px solid #ccc; width:210px;}
+
+#content.corrections dd {display:block; list-style-image:none; margin-left:10px;}
+#content.corrections dt:first-line {font-weight:bold;}
+
+/* LEIE Search */
+.search_block {padding:10px; border:1px solid #ccc; margin:10px; width:510px;}
+.search_block.multiple {width:525px;}
+
+.search_block h2 {margin:0 0 5px 10px; color:#006699; font:bold 13pt Verdana, Geneva, sans-serif; color: #006699; background:transparent; padding:0 !important;}
+
+#search_person, #search_business, #search_ssn {display:none}
+
+.leie_table {margin:5px; width:500px; table-layout:fixed; border-top:0; border-collapse:collapse;}
+.leie_table th {text-align:left; padding:4px; border:1px solid #ccc; font-weight:normal; background:#e7e7e7}
+.leie_table td {padding:4px; border:1px solid #ccc;}
+.leie_table td p {margin:0 !important}
+.leie_table td.header p {margin:0 !important; padding:0 !important;}
+.leie_table td.buttons {border:0; padding-bottom:0 !important;}
+.leie_table .buttons {border:0 !important;}
+.leie_table p input {margin:8px 4px; padding:0;}
+
+.leie_table input[type="text"] {font-size:9pt;}
+
+.leie_table.search_name input[type="text"] {width:220px}
+
+.leie_table.multiple {width:510px; margin-left:12px;}
+.leie_table.multiple input[type="text"] {width:200px; vertical-align:-3px;}
+
+.leie_table.search_business input[type="text"] {width:470px}
+
+.leie_table.search_ssn input[type="text"] {width:220px; vertical-align:-3px;}
+.leie_table.search_ssn.multiple input[type="text"] {width:200px !important; vertical-align:-3px;}
+
+.leie_search .buttons a, .leie_search .buttons a:hover {border:0 !important; text-decoration:none !important;}
+
+
+/* LEIE Help Table (the little help balloons) */
+/* #leie_help {float:right; width:180px; margin:20px 20px 10px 0px;}
+
+.leie_help_table {width:180px; table-layout:fixed}
+.leie_help_table .pointer {background:url(/images/leie_help_left_runner.gif) top left repeat-y; width:27px;}
+.leie_help_table .leie_help_content {background:url(/images/leie_help_body_runner.gif) top left repeat-y;}
+.leie_help_table .leie_help_content p {margin:2px 5px 8px 5px !important; padding:0 !important; font-size:8pt; line-height:1.2}  */
+
+/* LEIE Search Results */
+.leie_search_results  {width:100%; margin-left:10px; border:1px solid #bbb; border-collapse:collapse; margin-top:10px;}
+.leie_search_results tr {vertical-align:top;}
+.leie_search_results th {font-size:8pt; text-align:left; padding:2px 4px; color:#006699; background:#d7d7d7; border:1px solid #bbb;}
+.leie_search_results td {font-size:8pt; padding:6px 4px; border:1px solid #bbb;}
+
+.leie_search_results.verify_info {width:300px !important; float:left; margin:0 0 20px 30px;}
+.leie_search_results.verify_info th {width:75px;}
+
+.verify_ssn {float:left; margin-left:30px; border:1px solid #bbb; width:350px;}
+
+
+#overlay_valid {width:100%; height:100%; background: url(http://oig.hhs.gov/images/overlay.gif) top left; display:none; position:absolute; top:0; left:0; z-index:20;}
+#overlay_invalid {width:100%; height:100%; background: url(http://oig.hhs.gov/images/overlay.gif) top left; display:none; position:absolute; top:0; left:0; z-index:20;}
+#prompt_message {width:350px; background:#fff; border:1px solid #ccc; border-right:2px solid #444; border-bottom:2px solid #444; z-index:30; margin:200px auto 0 auto; padding:10px 10px 0 10px;}
+#prompt_message h1.verified {color:#00a000; padding-top:10px !important;}
+#prompt_message h1.invalid {color:#ac0000; padding-top:10px !important;}
+#prompt_message p {font-size:10pt;}
+#prompt_message .image {float:left; margin-right:10px; margin-top:5px;}
+.prompt_button {float:right; margin:3px;}
+
+/* Criminal Enforcement -- see H2 at top for additional */
+.criminal p {margin-bottom:25px !important}
+dl.criminal_report {margin-top:30px;}
+dl.criminal_report dt {font-weight:normal !important;}
+
+/* FOIA */
+#foia_form {margin:10px;}
+#foia_form th {text-align:left; font-weight:normal}
+.foia textarea {width:500px; height:120px;}
+
+
+/* Organization */
+#org_table {margin:0 auto;}
+#org_table table {margin:0;}
+#org_table a {border:0 !important; padding:0; margin:0;}
+#org_table a:hover {border:0 !important;}
+#org_table td {padding:0;}
+
+/* Location Table (OI) */
+#content .locations {width:550px;}
+#content .locations td > *:first-child {margin-top:0}
+#content .locations td ul {margin-top:0;}
+#content .locations td h2 {margin-bottom:4px;}
+
+/* Topical Index Table */
+.topical_index {table-layout:fixed; margin-top:0; padding-top:0; margin-bottom:15px;}
+
+/* Career */
+#content.career dl {margin-left:10px; margin-bottom:20px; padding-right:40px;}
+#content.career dl a:hover {border-bottom:1px solid #9696ff; color:#0000ff;}
+#content.career dt {margin-bottom:7px; margin-top:30px; font:bold 8pt Tahoma, Geneva, sans-serif; color:#001f49;}
+#content.career dd {font:normal 9pt Arial, Geneva, sans-serif; margin-left:8px; margin-bottom:15px; margin-right:20px; line-height:1.6; display:block;}
+#content.career dl p {margin-left:0;}
+#content.career dd acronym[title="Portable Document Format"] {font-size:7pt; color:#656565; border:0;}
+#content.career dd em {font-size:8pt}
+
+/* Search */
+#content.advanced_search table {margin-left:8px;}
+#content.advanced_search td {padding:4px;}
+#content.advanced_search td p {margin:0;}
+#content.advanced_search input[type="text"] {width:200px; font-size:9pt;}
+#content.advanced_search select {font-size:9pt !important}
+
+/* Site Map */
+#sitemap td {width:33%}
+#sitemap a {font-size:8pt}
+#sitemap li {list-style-type:none; margin-bottom:2px !important;}
+#sitemap ul.lvl1 {margin:0 10px 20px 15px; padding:0 0 0 5px;}
+#sitemap ul.lvl1 li {border-left:1px solid #ccc; line-height:1.2; margin-bottom:6px !important;}
+#sitemap ul.lvl1 li div {background:#ddd; padding:1px 0 1px 5px; font-size:8pt;}
+#sitemap ul.lvl1 li div a {border-bottom:0;}
+#sitemap ul.lvl2, ul.lvl3, ul.lvl4, ul.lvl5 {margin:0 0 5px 0; padding:0;}
+#sitemap ul.archive {margin-left:10px;}
+#sitemap ul.lvl2 li {padding:0; margin-left:16px; border:0; list-style-image:url(http://oig.hhs.gov/images/bullet_sitemap_lvl2.gif);}
+#sitemap ul.lvl3 li, ul.lvl4 li, ul.lvl5 li {padding:0; margin-left:16px; border:0; list-style-image:url(http://oig.hhs.gov/images/bullet_sitemap.gif);}
+#sitemap ul.lvl3, ul.lvl4, ul.lvl5 {border-left:1px solid #ccc;}
+#sitemap ul.lvl2, #sitemap ul.lvl3, #sitemap ul.lvl4, #sitemap ul.lvl5  {padding-top:3px; margin-top:1px;}
+
+/* Footer */
+#footer {padding:0; background:#ccc url(http://oig.hhs.gov/images/footer.png) top right repeat-x; text-align:center; margin-top:10px; border-bottom:1px solid #858585; border-top:1px solid #858585; color:#777; clear:both}
+#footer p {font:normal 9pt Arial, Geneva, sans-serif; margin:15px 0 15px 0; word-spacing:3px; color:#777878;}
+#footer a:hover {color:#0033bb; text-decoration:none; border-bottom:1px solid #0033bb}
+
+/* Jump to */
+#content .jump_to {font:normal 8pt Arial, Geneva, sans-serif; }
+#content .jump_to a:hover {background:#ddd; color:#000; border:0}
+
+/* Random */
+#content p.standout {margin-left:35px; padding-left:10px; border-left:2px solid #ddd}
+
+a[href="#top"] {font-size:8pt;}
+#oei_subjects a[title="Go back"] {font-size:8pt;}
+
+/* Recovery.gov Page */
+
+#content ul li.recovery {list-style-image:url(http://oig.hhs.gov/images/bullet_recovery.gif);}
+.recovery_header, 
+.recovery_header a
+{color:#00295a; font:bold 10pt "Times New Roman", serif;}
+
+.recovery_header span.gov, 
+.recovery_header a span.gov
+{color:#4e81b8;}
+.recovery_header span.recover, 
+.recovery_header a span.recover
+{color:#982122;}
+
+.recovery_report h2.line {border-bottom:none; width:auto;}
+.recovery_report h2.report_date {font-size:14px; color:#777; margin:5px 10px;}
+.recovery_report li {line-height:1.6; margin-bottom:2px !important;}
+
+.recovery_box {background:url(http://oig.hhs.gov/images/recovery_wm.png) bottom right no-repeat !important}
+
+.report_archive {margin:0 20px; width:250px; text-align:left; border:1px solid #ccc; border-collapse:collapse; table-layout:fixed;}
+.report_archive tr {vertical-align:top;}
+.report_archive th,
+.report_archive td {padding:5px;}
+
+.report_archive th {background:#e7e7e7; border-bottom:1px solid #ccc}
+.report_archive td * {border-bottom:1px solid #ccc;}
+.report_archive td * {line-height:1.6}
+
+#content dl.recovery_links dt {margin-top:20px;}
+#content dl.recovery_links dd {display:block; list-style-image:none; margin-bottom:6px;}
+
+
+/* Medicare Fraud Sub Site */
+
+/* .mit_nav_header {padding:5px; margin:0; font-size:8pt; line-height:1.2; border-bottom:1px solid #ccc; color:#fff; background:url(/fraud/medical_identity_theft/images/bg_opener.gif) top left no-repeat} */
+#navigation .mit_nav_header a {display:inline; width:auto; padding:0; font:bold 8pt Tahoma, Geneva, sans-serif; text-decoration:none; color:#fff; background:transparent}
+#navigation .mit_nav_header a:hover {background:transparent; border:0;}
+.basic_table {margin:10px; margin-top:0 !important; border:1px solid #f1f1f1; border-collapse:collapse;}
+.basic_table th, .basic_table td {padding:4px; vertical-align:top; text-align:left; border-bottom:1px solid #f1f1f1}
+.basic_table th {border-right:1px solid #f1f1f1}
+
+#content .print_graphic {float:right; margin:-15px 0 0 0 !important;}
+#content .print_graphic a {border:0 !important}
+#content .print_graphic a:hover {border:0 !important}
+
+.rss_bug {vertical-align:-3px; margin-right:2px;}
+
+
+/* Modifiers */
+.flush_bottom {margin-bottom:0 !important; padding-bottom:0 !important;}
+.flush_top {margin-top:0 !important; padding-top:0 !important;}
+
+.medium_top {margin-top:20px;}
+.medium_bottom {margin-bottom:20px}
+
+.small_top {margin-top:10px !important;}
+.small_bottom {margin-bottom:10px;}
+
+.big_top {margin-top:30px !important;}
+.margined_top30 {margin-top:30px !important;}
+
+
+/* Remove border under image links */
+#capsule #content a .no_border {border:0 !important;}
+
+/* .overlinked a {color:#003e84}
+.overlinked a:visited {border-bottom:1px solid #ddd !important; color:#656565 !important;}
+.overlinked a:hover {border-bottom:1px solid #9696ff; color:#0000ff;} */
+
+.img_right {float:right; padding-left:15px;}
+.img_right span {font-size:8pt; color:#777;}
+.img_left {float:left; padding-right:15px;}
+
+.nav_acronym {font-weight:normal; padding-left:3px;}
+
+.see {font-size:7pt; color:#993300; border:0;}
+
+.nobreak {white-space:nowrap}
+
+
+.archive {color:#72aa00;}
+img[alt="Archive"] {vertical-align:-1px;}
+
+.small_font {font-size:7pt;}
+
+/* Superscript */
+sup {vertical-align:4px;  text-align:center;}
+/* sup a, 
+sup a strong, 
+sup a:visited, sup a:visited strong, 
+sup a:visited:hover, sup a:visited:hover strong, 
+sup a:hover, sup a:hover strong {border-bottom:0 !important; font:normal 7pt Verdana, sans-serif !important;}
+ */
+sup a, sup a strong {background:#d5e6f2; color:#006699}
+/* sup a:visited, sup a:visited strong {background:#d5e6f2; color:#006699 !important;} */
+sup a:hover, sup a:hover strong {background:#006699; color:#fff !important}
+
+p.footnote {padding-left:15px; text-indent:-12px; margin-left:22px;}
+p.footnote:first-letter {background:#d5e6f2; color:#006699; font-family:Verdana, sans-serif !important;}
+
+a[title="Return to Paragraph"] {font:normal 8pt Verdana, sans-serif !important; background:#d5e6f2; color:#006699 !important; border:0 !important}
+a:visited[title="Return to Paragraph"] {font:normal 8pt Verdana, sans-serif !important; background:#d5e6f2; color:#006699 !important; border:0 !important}
+a:visited:hover[title="Return to Paragraph"] {font:normal 8pt Verdana, sans-serif !important; background:#006699; color:#fff !important; border:0 !important}
+a:hover[title="Return to Paragraph"] {background:#006699; color:#fff !important}
+
+.exit {cursor:help; border:0 !important; background:transparent !important; text-decoration:none;}
+a img {border:0 !important;}
+
+.noborder {border:none !important;}
+a.noborder {border:none !important;}
+a.noborder:hover {border:none !important;}
+
+.updated_link {background:#dcf1ff;}
+.updated_link:hover {background:#e3f5ff;}
+
+#content dd acronym.normal {font:normal 9pt Arial, Geneva, sans-serif, sans-serif; line-height:1.6; color:#222;}
+
+h2.short {width:300px !important;}
+h2.medium {width:500px !important;}
+
+.pdf_link {cursor:url(http://oig.hhs.gov/images/pdf.cur), auto}
+
+.wnewv2 dt {margin-top:15px !important}
+
+
+/* Governement Shutdown Message */
+.shutdown {margin:5px 15px 20px 15px; background:#fff; border: 3px solid #7B0000; position:relative; top:60px;}
+.shutdown p {font-size:10pt; margin:10px;}
+
+
+
+/*---------- bubble tooltip -----------*/
+/* 
+Courtesy of http://trentrichardson.com/2006/12/02/css-bubble-tooltips/
+ */
+a.tt{
+    position:relative;
+    z-index:24;
+    color:#3CA3FF;
+	font-weight:bold;
+    text-decoration:none;
+}
+a.tt span{ display: none; }
+
+a.tt {border-bottom:none !important}
+
+#content h1 a.tt,
+#content h1 a.tt:hover {border-bottom:none !important}
+
+
+
+
+
+/*background:; ie hack, something must be changed in a for ie to execute it*/
+a.tt:hover{ z-index:25; color: #aaaaff; background:; border-bottom:none !important}
+a.tt:hover span.tooltip{
+display:block;
+position:absolute;
+top:0px; left:0;
+padding: 15px 0 0 0 !important;
+width:200px;
+text-align: left;
+font:normal 9pt Verdana; line-height:1.4 !important; color: #003d73;
+}
+
+#content a.tt:hover span.tooltip {}
+
+a.tt:hover span.top{
+	display: block;
+	padding: 35px 8px 0;
+    background: url(http://oig.hhs.gov/layout/bubble.gif) no-repeat top;
+}
+a.tt:hover span.middle{ /* different middle bg for stretch */
+	display: block;
+	padding: 0 15px; 
+	background: url(http://oig.hhs.gov/layout/bubble_filler.gif) repeat bottom; 
+}
+a.tt:hover span.bottom{
+	display: block;
+	padding:5px 8px 10px;
+	color: #548912;
+    background: url(http://oig.hhs.gov/layout/bubble.gif) no-repeat bottom;
+}

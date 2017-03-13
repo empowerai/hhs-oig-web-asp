@@ -1,0 +1,17 @@
+body {margin:0; background: #082E55; text-align:center;}
+
+#container {margin:30px auto; background:#E2E2E2; width:95%; padding:0; text-align:left; border:1px dotted #009BE3; position:relative;}
+
+h1 {margin:10px 10px 10px 10px; font-size:18pt; color:#082E55;}
+p {font:normal 10pt Arial, sans-serif; color:#082E55; margin:10px;}
+
+a, a:link { text-decoration: underline; color: #007FB4; font-weight:normal;}
+a:hover { text-decoration: none; }
+a:active {
+outline: 0;
+}
+a:visited {
+color: #E14700;
+}
+
+.jp-playlist {padding-bottom:5px;}

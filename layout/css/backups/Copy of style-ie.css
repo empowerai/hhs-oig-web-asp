@@ -1,0 +1,10 @@
+
+input.buttonSubscribe {
+margin: 0 5px 0 0;
+}
+
+a[href$=".pdf"], a[href$=".PDF"]  {
+background: url('/images/icon_pdf.gif') 0 0 no-repeat; padding: 0 0 2px 20px;
+behavior: url(/layout/css/PIE.htc);
+vertical-align:text-top;
+}
