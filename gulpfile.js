@@ -15,15 +15,9 @@ const del = require('del');
 //*************************************************************
 // tasks
 
-gulp.task('clean', function () {
-	return del([
-		'assets/**/*'
-	]);
-});
-
 gulp.task('pdf', function() {
 	return gulp.src('**/*.pdf')
 		.pipe(gulp.dest('assets/pdf'));
 });
 
-gulp.task('default', ['clean', 'pdf']);
+gulp.task('default', ['pdf']);

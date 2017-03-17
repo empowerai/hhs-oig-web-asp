@@ -26,7 +26,7 @@
     "aws-sdk": "^2.28.0",
     "connect-ssi": "^1.1.1",
     "cors": "^2.8.1",
-    "dotenv": "https://registry.npmjs.org/dotenv/-/dotenv-4.0.0.tgz",
+    "dotenv": "^4.0.0",
     "express": "^4.15.2",
     "file-stream-rotator": "^0.1.0",
     "helmet": "^3.5.0",
