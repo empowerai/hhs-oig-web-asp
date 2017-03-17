@@ -19,5 +19,3 @@ deploy:
   bucket: bucketeer-43061060-5d3e-4179-9d24-f43a1f2b1cbf
   local-dir: assets
   acl: public_read
-  on:
-    repo: nci-ats/hhs-oig-web-asp
