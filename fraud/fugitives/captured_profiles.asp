@@ -10,7 +10,7 @@
 <meta name="description" content="Medical ID Theft / Fraud Information | Fraud | Office of Inspector General" />
 <title>Captured Fugitives | OIG Most Wanted Fugitives | Fraud | Office of Inspector General | U.S. Department of Health and Human Services</title>
 <!--#include virtual="/layout/head.asp" -->
-<!--#include virtual="/includes/auto-deploy.asp" -->
+
 
 <style type="text/css">
 <!-- 
@@ -65,7 +65,7 @@
 
 	<div id="textReset">
 	<!--#include virtual="/layout/header.asp" -->
-	<!--#include virtual="/includes/auto-deploy.asp" -->
+
 			<div id="mainBody">
 			<div id="leftSideInterior">
 				<div id="breadcrumbs">
