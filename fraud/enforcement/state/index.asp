@@ -25,7 +25,7 @@
 <div id="bodyContainer">
 	<div id="textReset">
 	<!--#include virtual="/layout/header.asp" -->
-	<!--#include virtual="/includes/auto-deploy.asp" -->
+
 			<div id="mainBody">
 			<div id="leftSideInterior">
 				<div id="breadcrumbs">

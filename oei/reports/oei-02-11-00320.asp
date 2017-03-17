@@ -5,13 +5,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
-<!--#include virtual="/includes/auto-deploy.asp" -->
 
-<%	
-		'AUTO DISPLAY SCRIPT BEGINS
-    date_time_to_auto_display = "29-Sept-14 7:00:00AM"
-		If AutoDisplay(date_time_to_auto_display, "display") Then 
-%>
 
 <head>
 <meta name="google-site-verification" content="tpATPqNEN3HXiSbtqevBE9NdgbuCiN9Vmr6EP94lx6w" />

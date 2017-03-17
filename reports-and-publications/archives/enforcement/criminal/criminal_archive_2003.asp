@@ -58,14 +58,7 @@
 </div>
 <br /><br /><br />
 
-<%
-'-------------------------------------------------------------------------------
-'     BEGIN AUTO DISPLAY SCRIPT
-'-------------------------------------------------------------------------------
-	  date_time_to_auto_display = "22-Oct-12 13:29:00"
 
-		If AutoDisplay(date_time_to_auto_display) Then 
-%>
 
 <div class="contentSeparator"></div><h2><a name="2003"></a>DISPLAY TIME DEPENDENT CONTENT HERE</h2>
 

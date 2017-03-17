@@ -82,7 +82,6 @@ jQuery(document).ready(function(){
 <div id="bodyContainer" style="background-position:auto 100px !important;" class="mobilized">
 
 
-<!--#include virtual="/includes/auto-deploy.asp" -->   
 
 
 <!--===============  [ MOBILE BANNER ]  ===============-->
@@ -92,7 +91,7 @@ jQuery(document).ready(function(){
 
 	<div id="textReset">
 	<!--#include virtual="/layout/header.asp" -->
-	<!--#include virtual="/includes/auto-deploy.asp" -->
+
 			<div id="mainBody">     
 
 <!-- 

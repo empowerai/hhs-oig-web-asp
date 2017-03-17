@@ -1,10 +1,5 @@
-<!--#include virtual="/includes/auto-deploy.asp" -->   
-<%	
-'------------------------------------------------------------
-'AUTO DISPLAY SCRIPT BEGINS
-    	date_time_to_auto_display = "31-Oct-14 12:01:00AM"
-	If AutoDisplay(date_time_to_auto_display, "display") Then 
-%>
+
+
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
