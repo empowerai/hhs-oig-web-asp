@@ -1,10 +1,10 @@
 {
   "name": "hhs-oig-web-asp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "HHS OIG Website",
   "main": "index.js",
   "scripts": {
-	"start": "node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
@@ -22,9 +22,10 @@
   },
   "homepage": "https://github.com/nci-ats/hhs-oig-web-asp#readme",
   "dependencies": {
+    "aws-sdk": "^2.28.0",
     "connect-ssi": "^1.1.1",
     "cors": "^2.8.1",
-    "dotenv": "^4.0.0",
+    "dotenv": "https://registry.npmjs.org/dotenv/-/dotenv-4.0.0.tgz",
     "express": "^4.15.2",
     "file-stream-rotator": "^0.1.0",
     "helmet": "^3.5.0",
