@@ -1,6 +1,9 @@
 # modules
 node_modules/
 
+# env var
+.env
+
 # logs
 /log
 *.log
