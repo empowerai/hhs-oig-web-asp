@@ -17,6 +17,7 @@ node_modules/
 *.mp3
 *.wmv
 *.zip
+!assets/pdf/about-oig/careers/oi_brochure/**
 
 # exec
 *.exe
