@@ -1,0 +1,246 @@
+** This document is an ASCII formatted version of the printed
+report summary.  The page numbers and footnotes may appear
+differently than in the printed version.  The printed version may
+also contain charts which are not reproduced in this electronic
+version. To obtain a printed copy of the report, contact the HHS
+OIG Public Affairs Office at 202-619-1142**
+
+FOREWORD
+
+I am pleased to present this semiannual report of the Department of
+Health and Human Services (HHS) Office of Inspector General (OIG)
+describing our accomplishments during the 6-month period ending
+March 31, 1995.
+
+In the first half of Fiscal Year (FY) 1995, we have been part of
+several pivotal changes.  As of March 31, 1995, the Social Security
+Administration (SSA) became an independent agency with its own OIG
+formed of staff from the HHS OIG.  In the next reporting period,
+SSA OIG will report its own accomplishments.  Under the provisions
+of the Social Security Independence and Program Improvements Act of
+1994, and at the request of Commissioner Shirley Chater, (while
+continuing as HHS Inspector General) I will serve as interim
+Inspector General of SSA until an Inspector General is nominated
+and confirmed.  It is a pleasure to work with Commissioner Chater
+and her excellent staff, and I commend all of the outstanding
+accomplishments by both HHS and SSA staff in the transition to an
+independent SSA.
+
+Within HHS OIG, we are continuing to streamline our operations
+while maintaining our vigorous pursuit of fraud, waste and abuse. 
+As examples of our streamlining efforts, we completed early-out and
+buyout programs targeted at reducing management positions (Senior
+Executive Service through General Schedule-13) and closed 17 out of
+65 field offices.  The OIG also reduced administrative costs by
+increasing teleconferencing to conduct audit conferences and report
+reviews, making more efficient use of other electronic
+communications, pursuing more cost-effective in-house training and
+redesigning basic work processes.
+
+Under Secretary Shalala's leadership, we have launched a major
+program integrity project, Operation Restore Trust, with the Health
+Care Financing Administration, Administration on Aging, Department
+of Justice, State Medicaid Fraud Control Units and others working
+against health care fraud.  Its purpose is to model an approach for
+attacking health care fraud through focused intergovernmental
+teams.  We will target our initial partnership efforts to
+investigations, audits, evaluations and administrative sanctions in
+home health agencies and nursing homes, two industries we have
+identified as particularly vulnerable to fraud and abuse.  The
+ultimate objective is to protect the integrity, quality and access
+of our health care programs.
+
+These innovations and cost-cutting efforts underscore OIG's record
+as a good investment, returning $80 in savings for each dollar
+invested in it in FY 1994 or an average of $6.4 million per OIG
+employee.  With the support of the Department and the Congress, we
+will continue to fulfill our mission and strengthen the
+Department's ability to serve the public.  
+
+
+June Gibbs Brown
+Inspector General
+
+HIGHLIGHTS
+
+In this first half of Fiscal Year 1995, the Office of Inspector
+General (OIG) has undertaken several major initiatives to protect
+the integrity of departmental operations and programs and the
+health and well-being of the beneficiaries served by those
+programs.  Some of OIG's most significant accomplishments during
+this period are identified below.
+
+The OIG and the Health Care Financing Administration (HCFA)
+initiated a project to develop an innovative, multidiscipline
+Federal and State approach to preventing and detecting fraud in
+home health agencies and nursing homes in five States.  (See page
+23)
+
+Other initiatives include:
+
+Reducing Unnecessary Spending:
+* Joint work by OIG and HCFA is resulting in annual savings of $8
+million and recovery of $219 million in overpayments caused by
+transfers between prospective payment system hospitals that were
+erroneously reported and paid as discharges.  (See page 5)
+
+* The OIG found that, in 1992, $10.8 million in improper payments
+were made on behalf of Medicare beneficiaries in nursing homes for
+durable medical equipment.  (See page 21)
+
+* Based on its finding that Federal employees and retirees owe the
+Social Security Administration (SSA) $15.2 million, OIG recommended
+that SSA submit a legislative proposal to implement Federal salary
+offset for overpayments.  (See page 28)
+
+Preventing and Detecting Fraud and Abuse:
+* New York State agreed to pay almost $27 million to settle charges
+of false claims to the Federal Government.  (See page 65)
+
+* A Michigan carrier agreed to pay $27.6 million to settle a qui
+tam suit initiated by a former employee and $24 million to settle
+charges of violating Medicare secondary payer laws.  (See page 16)
+
+* The OIG found that over 75 percent of the reimbursement claims
+filed by a home health agency were inappropriate, resulting in an
+overpayment of $25.9 million.  (See page 6)
+
+* The OIG found that questionable billing practices may account for
+nearly half of the Medicare allowances for incontinence supplies in
+1993.  (See page 20)
+
+* A woman who owned two vascular testing clinics and a durable
+medical equipment company in Florida and three of her employees
+were given lengthy jail sentences and ordered to repay more than
+$2.2 million for paying individuals to submit to tests and falsely
+billing Medicare and Medicaid.  (See page 8)
+
+* A Massachusetts carrier paid $2.75 million in settlement for
+submitting false Medicare reports for a number of New England
+States.  (See page 16)
+
+* A Texas man and his wife were sentenced to prison for 48 and 30
+months, respectively, for a scheme in which he faked his own death
+so she could collect insurance and Social Security survivors
+benefits.  (See page 31)
+
+* An administrative law judge determined that a California
+oncologist should be permanently excluded from participation in the
+Medicare and State health care programs.  (See page 15)
+
+* An Alaska physician was excluded for 15 years for sexual assaults
+he committed during physical examinations of his patients.  (See
+page 14)
+
+Identifying Systemic Management Problems:
+* The OIG presented five alternative options to improve the system
+for reimbursement of administrative costs in the Medicaid, Aid to
+Families with Dependent Children and Food Stamp programs, some of
+which could save hundreds of millions of dollars.  (See page 54)
+
+* Audits by OIG in five States identified numerous instances where
+child care facilities did not comply with States' health and safety
+standards.  The OIG recommended that the Administration for
+Children and Families (ACF) provide States' identified best
+practices to improve health and safety conditions in the Nation's
+child care programs.  (See page 52)
+
+* After OIG found that 75 percent of all hospitals in the United
+States had never reported an adverse action taken against
+practitioners, the Public Health Service (PHS) and HCFA agreed to
+work together to encourage the Joint Commission on Accreditation of
+Healthcare Organizations to devote greater attention to hospital
+compliance with the National Practitioner Data Bank law.  (See page
+47)
+
+* As an upfront control over the quality of contract bids, OIG
+recommended that HCFA include, in its requests for bids from peer
+review organizations, OIG's recently issued Proposal Guidance Book
+that instructs bidders on the documentation needed to support
+proposed costs.  (See page 7)
+
+Promoting Improved Service Delivery:
+* In an inspection on oxygen concentrator services, OIG found that
+Medicare policies have contributed to a wide variation in these
+services provided to beneficiaries, and that many of the services
+provided were not endorsed by national organizations.  (See page
+20)
+
+* The OIG determined that the use of competitive contracts or
+negotiated agreements to purchase consultative examinations could
+result in considerable savings for SSA, and improve the timeliness
+and quality of these examinations.  (See page 36)
+
+* In response to a PHS request, OIG determined that the Office of
+Research Integrity (ORI) is properly staffed and identified
+opportunities for ORI to improve its operations by making better
+use of existing staff.  (See page 46)
+
+* The OIG found that the Administration on Aging and ACF could take
+advantage of the benefits of intergenerational activities by
+encouraging the voluntary colocation of programs, such as Head
+Start and senior centers.  (See page 58)
+
+Developing and Assessing Performance Measures:
+* Upon finding that there was considerable confusion as to
+congressional intent regarding the Supplemental Security Income
+(SSI) disability program for children, particularly those with
+mental impairments, OIG recommended revisiting the purpose of these
+payments and the method of determining eligibility for them.  (See
+page 36)
+
+* The OIG found that PHS's numerous evaluations of its programs
+performed each year provide useful information but do not
+necessarily measure program results.  Current PHS systems, with
+some reorganization and redirection, could better produce
+information to measure performance.  (See page 48)
+
+In order to identify OIG work in the area of performance
+measurement, we have labeled some items throughout the semiannual
+report as performance measures with the symbol (ruler). 
+Performance measures are used to evaluate the achievement of a
+program goal, such as the efficiency of an immunization program
+which is measured by the number of inoculations provided per dollar
+of cost.  In OIG's opinion, the audits, inspections and
+investigations identified with the performance measure symbol offer
+management information about whether some aspect or all of the
+programs or activities reviewed are achieving their missions and
+goals.  These proposals are provided to management for their
+consideration as they develop their performance measures.
+
+During this reporting period, the following items have been labeled
+as performance measures:
+
+Medicare Services Provided to Residents of Skilled Nursing
+Facilities Page 12
+
+Oxygen Concentrator Services Page 20
+
+Durable Medical Equipment Billed during Nursing Facility Stays Page
+21
+
+Disability Research Demonstration Program Page 34
+
+Initial Disability Claims Page 35
+
+Supplemental Security Income Payments to Children with Mental
+Impairments 
+     A. Participation of Children with Mental Disabilities in the
+     Supplemental Security Income Program Page 36
+
+Supplemental Security Income Payments to Drug Addicts and
+Alcoholics
+     A. Continued Dependence Page 38
+     B. Statutory Requirements Page 39
+
+Hospital Reporting to the National Practitioner Data Bank Page 47
+
+Nationwide Review of Health and Safety Standards at Child Care
+Facilities Page 52
+
+Independent Living Program for Foster Care Youths Page 53
+
+Colocated Intergenerational Activities in Departmental Programs
+Page 58
+
+
