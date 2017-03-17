@@ -1,0 +1,23 @@
+language: node_js
+sudo: false
+node_js:
+  - '6'
+cache:
+  directories:
+  - node_modules
+before_script:
+  - npm install -g gulp
+script:
+  - npm install
+  - npm run build
+deploy:
+  provider: s3
+  access_key_id:
+    secure: ik3LcnMYYc550iMvq0I0bMVrUMRRdKz77OShMIC8CpKzt3E5j2FoWC4JxH/3sbkB9Gky0yarTaup5h47zlTeSuavDQ2v6U9ji2CBBfb33OVA41ViNkdNzuChARMRBtjSl+Kakgr9SwKMIamLRQ3Cz/qNj6eXyd5eCHp666EbW8FqQGDSHqVP2TpH2T7+5nc0u2yUnpAOvhrd3BKD5bhWn0HlV0voAs1fXbeDC0LOna/upkO1ExR1VwxlrSTdYXP/YFPfXtELk6hRSdJcNdExurcwK90h7IE7Fu3nghaEQUF57jKsdUshmMsjqq7IEOVlTbE5p4s1ax33q8A57uij3bAMW6tS+LLjn6jqoOQjZPKGJ3ThUCViTQdcf4lT6ZyTEMol26ZWUiBU3yeyOMC6ynxrTtDI4ZGrIVvflOsYve8y9D3lBgM2Xe9IW5eryXjbed4AxHsGsGN0XZD0lGgOVIKGErTuF1/Gh805Wq5uhiJUJHMlqbZgTvQ7+X0wsVDaSrxCnWqInbb/5a3bFPuAJ8gXiSyJywNKE/8uteZvNxH7Z77d6/3kRn7mbhKneWeEnpmlbLW0G33h7i6T/jdWTGmf8KUZneIzIdm3pulYxPuiv1acQ41B78RAD0v/zCHxzrrCaC2gESLemX3mG2ziLdnUqmfy2JXb5OY3p/MY+Yo=
+  secret_access_key:
+    secure: mO+g6s9U/aGX4iqJteu+9IZr1jW/tJQl/RVn/79+FL7ROeayCyn/NNm2njLFg7ZZSZLaAESj1OMBFDzbKCyPye6dv/crtozNlbEpu9o2m1FXuXzQINPfhkujgm9SKlOLhhCiY/3xhN0SY5PEMui3p2HK6UgNpox16xi8ULIz5UXlh9z6RVatg7Fub8elwz1BL4aBT9djYsdjbsAK0WyLFhdkXhqIXSKQF7GWufwNTJrNJy95H868t1FIaHWUfW9ob3++yP7yPjAAcI9TxDTBM4TP2lUgGRAGhealVMfucoZSTmGBDPR/v/hh0D0Tp4jkAioyEp5UFcF9J6ZB24/cHZehJxetQWAabQu4BAbnBCdJxAkDX8qb3SooM6XO9BS+cvVf55mHgou2pZ4bkvm7hVtY516OsQq7jgLAaaF7mBzVpwG/6JAJDP7EK62KesdDFGSZH0USKRSqk4rkcpnxUgIEhkKcceUuUhubpeiyLVsiH6d6uMOGnqXt6TLjndMULADj5s3gjphdoWdau++5J8j4TJveYAlH39crNTwJtd1qqGMAoWPObo8hpmFleT30wzFGQVYB+CmtR3+/7AB8aoWXZnUG0yecLizefHcGd6+p/9QHoxIal7IbLy9SRjUzk+kl3VM6O6Nwv4OgX0WvjiV3TX/nGrDwNuyU81Ih39c=
+  bucket: bucketeer-43061060-5d3e-4179-9d24-f43a1f2b1cbf
+  local-dir: assets
+  acl: public_read
+  on:
+    repo: nci-ats/hhs-oig-web-asp
