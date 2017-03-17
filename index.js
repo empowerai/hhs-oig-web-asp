@@ -68,14 +68,19 @@ app.use(ssi({
 	baseDir: __dirname
 }));
 
-app.use('*.pdf', function (req, res, next) {
+app.use(['*.pdf', '*.txt', '*.csv', '*.xls', '*.ppt'], function (req, res, next) {
 
-	let file = req.originalUrl.substr(1);
-	//console.log('file : ' + file);   
+	let file = req.originalUrl;
+	let ext = path.extname(file);
+	let key = (ext + file).substring(1);
+	
+	console.log('file : ' + file);   
+	console.log('ext : ' + ext); 
+	console.log('key : ' + key); 
 
 	let params = {
 		Bucket: BUCKETEER_BUCKET_NAME, 
-		Key: file
+		Key: key
 	};
 
 	s3.getObject(params, function(err, data) {

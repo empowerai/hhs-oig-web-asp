@@ -274,6 +274,12 @@
       "from": "https://registry.npmjs.org/dotenv/-/dotenv-4.0.0.tgz",
       "resolved": "https://registry.npmjs.org/dotenv/-/dotenv-4.0.0.tgz"
     },
+    "duplexer": {
+      "version": "0.1.1",
+      "from": "duplexer@>=0.1.1 <0.2.0",
+      "resolved": "https://registry.npmjs.org/duplexer/-/duplexer-0.1.1.tgz",
+      "dev": true
+    },
     "duplexer2": {
       "version": "0.0.2",
       "from": "duplexer2@0.0.2",
@@ -607,6 +613,24 @@
         }
       }
     },
+    "gulp-ignore": {
+      "version": "2.0.2",
+      "from": "gulp-ignore@latest",
+      "resolved": "https://registry.npmjs.org/gulp-ignore/-/gulp-ignore-2.0.2.tgz",
+      "dev": true
+    },
+    "gulp-match": {
+      "version": "1.0.3",
+      "from": "gulp-match@>=1.0.3 <2.0.0",
+      "resolved": "https://registry.npmjs.org/gulp-match/-/gulp-match-1.0.3.tgz",
+      "dev": true
+    },
+    "gulp-size": {
+      "version": "2.1.0",
+      "from": "gulp-size@latest",
+      "resolved": "https://registry.npmjs.org/gulp-size/-/gulp-size-2.1.0.tgz",
+      "dev": true
+    },
     "gulp-util": {
       "version": "3.0.8",
       "from": "gulp-util@>=3.0.0 <4.0.0",
@@ -631,6 +655,12 @@
       "version": "1.0.0",
       "from": "gulplog@>=1.0.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/gulplog/-/gulplog-1.0.0.tgz",
+      "dev": true
+    },
+    "gzip-size": {
+      "version": "3.0.0",
+      "from": "gzip-size@>=3.0.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/gzip-size/-/gzip-size-3.0.0.tgz",
       "dev": true
     },
     "has-ansi": {
@@ -1109,6 +1139,12 @@
       "resolved": "https://registry.npmjs.org/normalize-path/-/normalize-path-2.0.1.tgz",
       "dev": true
     },
+    "number-is-nan": {
+      "version": "1.0.1",
+      "from": "number-is-nan@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.1.tgz",
+      "dev": true
+    },
     "object-assign": {
       "version": "4.1.1",
       "from": "object-assign@>=4.0.1 <5.0.0",
@@ -1240,6 +1276,12 @@
       "version": "0.2.0",
       "from": "preserve@>=0.2.0 <0.3.0",
       "resolved": "https://registry.npmjs.org/preserve/-/preserve-0.2.0.tgz",
+      "dev": true
+    },
+    "pretty-bytes": {
+      "version": "3.0.1",
+      "from": "pretty-bytes@>=3.0.1 <4.0.0",
+      "resolved": "https://registry.npmjs.org/pretty-bytes/-/pretty-bytes-3.0.1.tgz",
       "dev": true
     },
     "pretty-hrtime": {
@@ -1405,6 +1447,12 @@
       "version": "0.1.0",
       "from": "stream-consume@>=0.1.0 <0.2.0",
       "resolved": "https://registry.npmjs.org/stream-consume/-/stream-consume-0.1.0.tgz",
+      "dev": true
+    },
+    "stream-counter": {
+      "version": "1.0.0",
+      "from": "stream-counter@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/stream-counter/-/stream-counter-1.0.0.tgz",
       "dev": true
     },
     "string_decoder": {
