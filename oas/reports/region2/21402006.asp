@@ -29,7 +29,6 @@
 	<div id="textReset">
 	<!--#include virtual="/layout/header.asp" -->
   
-  <!--#include virtual="/includes/auto-deploy.asp" -->
 
 
   
