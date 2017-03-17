@@ -26,15 +26,13 @@ const AWS = require('aws-sdk');
 //*************************************************************
 // AWS
 
-const AWS_ACCESS_KEY =  process.env.AWS_ACCESS_KEY;
-const AWS_SECRET_KEY = process.env.AWS_SECRET_KEY;
-const AWS_REGION = process.env.AWS_REGION;
-const AWS_S3_BUCKET = process.env.AWS_S3_BUCKET;
+const BUCKETEER_AWS_ACCESS_KEY_ID =  process.env.BUCKETEER_AWS_ACCESS_KEY_ID;
+const BUCKETEER_AWS_SECRET_ACCESS_KEY = process.env.BUCKETEER_AWS_SECRET_ACCESS_KEY;
+const BUCKETEER_BUCKET_NAME = process.env.BUCKETEER_BUCKET_NAME;
 
 AWS.config.update({
-    accessKeyId: AWS_ACCESS_KEY,
-    secretAccessKey: AWS_SECRET_KEY,
-    region: AWS_REGION
+    accessKeyId: BUCKETEER_AWS_ACCESS_KEY_ID,
+    secretAccessKey: BUCKETEER_AWS_SECRET_ACCESS_KEY
 });
 
 const s3 = new AWS.S3();
@@ -76,7 +74,7 @@ app.use('*.pdf', function (req, res, next) {
 	//console.log('file : ' + file);   
 
 	let params = {
-		Bucket: AWS_S3_BUCKET, 
+		Bucket: BUCKETEER_BUCKET_NAME, 
 		Key: file
 	};
 
