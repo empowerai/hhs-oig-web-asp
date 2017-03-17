@@ -17,7 +17,27 @@ node_modules/
 *.mp3
 *.wmv
 *.zip
-!assets/pdf/about-oig/careers/oi_brochure/**
+
+!assets/pdf/about-oig/**
+!assets/pdf/authorities/**
+!assets/pdf/career/**
+!assets/pdf/compliance/**
+!assets/pdf/conference/**
+!assets/pdf/exclusions/**
+!assets/pdf/faqs/**
+!assets/pdf/foia/**
+!assets/pdf/forms/**
+!assets/pdf/guidance/**
+!assets/pdf/heat/**
+!assets/pdf/newsroom/**
+!assets/pdf/organization/**
+!assets/pdf/publications/**
+!assets/pdf/reports-and-publications/**
+!assets/pdf/testimony/**
+!assets/txt/**
+!assets/csv/**
+!assets/xls/**
+!assets/ppt/**
 
 # exec
 *.exe
