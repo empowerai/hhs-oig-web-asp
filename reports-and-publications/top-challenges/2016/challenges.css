@@ -1,0 +1,34 @@
+/* sup {cursor:pointer;} */
+
+.tmc-pullquote {
+float: right; padding:15px; font-size:16pt; width:250px; line-height:1.3; background: #e9e9e9; color: #515151;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px; margin:0 0 10px 10px;
+} 
+
+.protect-h1 {background-image:url(./images/shield.svg), url(/images/h1BgTest.jpg); padding-left:65px;}
+.fight-h1 {background-image:url(./images/fight.svg), url(/images/h1BgTest.jpg); padding-left:100px;}
+.secure-h1 {background-image:url(./images/secure.svg), url(/images/h1BgTest.jpg); padding-left:65px;}
+
+@-moz-document url-prefix() {.protect-h1 {background: url(./images/shield.svg) left 5px no-repeat, url("/images/h1BgTest.jpg") bottom left no-repeat;}}
+
+h3 {font-weight:bold;}
+
+.navigate-star {background:url(./images/star-bullet.png) 0 8px no-repeat; padding-left: 20px;}
+
+.key-resources-icon {background:transparent url(./images/key.png) left 3px no-repeat; padding-left:50px;}
+
+#report-related h4 {font-weight: normal; font-size: 12pt; color: #1F3A5D}
+#report-related .tmc-sidebar-bullets {margin-left:20px; list-style-type:disc;}
+#report-related .tmc-sidebar-bullets a {padding-bottom:1px;}
+#report-related .sidebar-divider {background: transparent url(./images/sidebar-divider.png) top left repeat-x; width:246px; height:10px;}
+
+#sub-page-banner {width:555px; background: #000 url(./images/sub-page-banner.png) left top no-repeat; padding:155px 15px 0 30px; margin-bottom:20px}
+#sub-page-banner p {color:#fff; font-size:18pt; line-height:1.2;}
+#sub-page-banner p strong  {color:#F2D5A2;}
+#tmc-video-box {width:600px; height: 242px; background: #e7e7e7; border: 1px solid #ccc; margin-bottom:20px;}
+
+.continue {background:#02517B; padding:10px;-webkit-border-radius: 5px 5px 5px 5px; border-radius: 5px 5px 5px 5px; margin-bottom:20px;}
+.continue .readmore {color:#fff; font-size:12pt; transition: linear .3s}
+.continue .readmore:hover {text-decoration:none; color:#F2D5A2} 

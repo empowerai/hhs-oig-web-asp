@@ -1,0 +1,338 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+<meta name="google-site-verification" content="tpATPqNEN3HXiSbtqevBE9NdgbuCiN9Vmr6EP94lx6w" />
+<meta name="keywords" content="Management Challenge 2:  Fighting Fraud, Waste, and Abuse in Medicare Parts A and B" />
+<meta name="description" content="Management Challenge 2:  Fighting Fraud, Waste, and Abuse in Medicare Parts A and B" />
+<title>Management Challenge 2:  Fighting Fraud, Waste, and Abuse in Medicare Parts A and B</title>
+
+<!--#include virtual="/layout/head.asp" -->  
+<!--#include file="./global-includes.asp" -->  
+
+<script src="./jquery.collapser.js"></script>
+
+
+<script>
+$(document).ready(function() {
+
+/* $('.gppost').collapser({
+	mode: 'lines',
+	truncate: 3,
+	showText: 'Continue reading >>',
+  hideText: 'Close'
+}); */
+
+
+
+    $('.dynamic-size').each(function(){
+           var dWidth 	= parseInt($(this).attr('href').match(/width=[0-9]+/i)[0].replace('width=',''));
+           var dHeight 	=  parseInt($(this).attr('href').match(/height=[0-9]+/i)[0].replace('height=',''));
+			$(this).fancybox({
+				'width':dWidth,
+				'height':dHeight,
+				'autoScale'     	: false,
+				'transitionIn'		: 'fade',
+				'transitionOut'		: 'fade',
+				'type'			: 'iframe',
+        'cyclic': true
+			});
+      }); 
+
+
+});
+
+</script>
+
+
+
+<script type="text/javascript" src="/layout/js/jquery.cycle.all.min.js"></script>
+<script type="text/javascript">
+  jQuery(function() {
+			//What's New Slide controller
+		jQuery('#whatsNewSlides').cycle({ 
+	 		fx:     'fade',  //Transition Type
+			prev:   '#buttonPrev', 
+			next:   '#buttonNext',
+			speed: 1000,
+			timeout: 20000, 
+			pause:         1,     // true to enable "pause on hover" 
+			pauseOnPagerHover: 1, // true to pause when hovering over pager link 
+			random: 0,
+			pager:  '#buttonContainer',
+			pagerAnchorBuilder: function(index, el) {
+					return '<a href="#">&nbsp;</a>'; // pager for switching between slides
+			},
+			after:     function() {
+            jQuery('#caption').html(this.alt);
+        },
+			cleartype: false
+		});
+		
+
+
+	});
+</script>
+
+<style type="text/css">
+
+/* REPURPOSED HOME PAGE SLIDER CSS MODIFICATIONS */
+#whatsNewContainer {
+width:590px;
+/* min-height:300px; */
+min-height:320px;
+height:auto !important;
+/* height: 300px; */
+height: 320px;
+margin: 10px 0 0 -15px !important;
+padding-left: 20px;
+padding-top:20px;
+position: relative; 
+z-index:1;
+background:transparent url(./images/tmc-frame.png) 10px top no-repeat;
+} 
+
+#whatsNewSlides div {
+width:540px; height:274px; margin-left:0; padding-left:5px; 
+}
+
+/* Prev/Next Buttons */
+#buttonNext, a#buttonNext:active, a#buttonNext:focus {
+position: absolute;
+right: 7px;
+width: 27px;
+height: 46px;
+z-index: 20;
+top: 115px;
+background: url('./images/tmc-pager-right.png') no-repeat 0 0;
+}
+#buttonPrev, a#buttonPrev:active, a#buttonPrev:focus {
+position: absolute;
+float: left;
+width: 27px;
+height: 46px;
+z-index: 20;
+top: 115px;
+left: -22px;
+background: url('./images/tmc-pager-left.png') no-repeat 0 0;
+}
+
+a#buttonNext:active, a#buttonNext:focus, a#buttonPrev:active, a#buttonPrev:focus {
+outline: none;
+}
+
+/* Bottom Right Pager */
+#buttonContainerCorner {
+/* background: url('/images/whatsNewButtonContainerLeftBg.png') no-repeat 0 0; */
+background:none;
+position: absolute;
+top: 270px;
+right: 240px;
+z-index: 10;
+}
+#buttonContainer {
+min-width: 64px;
+/* width:expression(document.body.clientWidth < 72? "72px": "auto" ); */
+height: 37px;
+/* background: #e7e7e7 url('/images/whatsNewButtonContainerBg.png') no-repeat 100% 0; */
+background:none;
+padding-right: 10px;
+margin-left: 10px;
+
+}
+#buttonContainer a {
+width: 15px;
+height: 19px;
+background: url('/images/whatsNewPagerInactive.jpg') no-repeat;
+display: block;
+float: left;
+text-decoration: none;
+border: none;
+margin: 6px 0 0 0px;
+}
+#buttonContainer a:hover {
+opacity: .7;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; 
+filter: alpha(opacity=70);				
+}
+
+
+#buttonContainer a:focus, #buttonContainer a:active {
+position: relative;
+top: 0px;
+outline: none;
+}
+#buttonContainer a.activeSlide {
+background: url('/images/whatsNewPagerActive.jpg') no-repeat;
+
+}
+ 
+
+</style>
+</head>
+<body>
+<div id="bodyContainer">
+	<div id="textReset">
+	<!--#include virtual="/layout/header.asp" -->
+			<div id="mainBody">
+			<div id="leftSideInterior">
+				<div id="breadcrumbs">
+					<ul>
+						<li>
+							<a href="/">Home</a>
+						</li>
+						<li>
+							<a href="/reports-and-publications/index.asp">Reports &amp; Publications</a>
+						</li>
+					
+						<li>
+							<a href="/reports-and-publications/top-challenges/index.asp">Top Management &amp; Performance Challenges</a>
+						</li>
+					</ul>
+				</div>
+				<div id="leftContentInterior">
+
+<style type="text/css">
+<!-- 
+#sub-page-banner {width:555px; background: #000 url(./images/sub-page-banner.png) left top no-repeat; padding:155px 15px 0 30px; margin-bottom:20px}
+#sub-page-banner p {color:#fff; font-size:18pt; line-height:1.2;}
+#sub-page-banner p strong  {color:#CEA140;}
+#tmc-video-box {width:600px; height: 242px; background: #e7e7e7; border: 1px solid #ccc; margin-bottom:20px;}
+-->
+</style>        
+
+
+<!-- <h1 class="fight-h1">Fighting Fraud, Waste, and Abuse in Medicare Parts A and B</h1> -->
+
+<div id="sub-page-banner" style="height:120px;">
+<p><strong>Effectively Administering</strong> the Medicaid Program to Address High Improper Payments, Insufficient Data, and Program Integrity Vulnerabilities</p>
+</div>
+
+
+
+<div id="tmc-video-box">
+
+<div class="fake-video" style="width:200px; height: 175px; background: #000; margin:35px auto;"></div>
+
+</div>
+
+
+<h2>Due to fraud, Medicare paid over $10 Billion in improper payments in 2015</h2>
+
+
+<p>To secure the future of health care for Medicare beneficiaries, the Department must be vigilant in reducing wasteful spending and promoting better health outcomes at lower costs.  The Institute of Medicine estimated that 30 percent of U.S. health spending (public and private) in 2009 &mdash; roughly $750 billion &mdash; was wasted on unnecessary services, excessive administrative costs, fraud, and other problems.<sup><a href="#footnotes">2</a></sup>  Waste in health care programs is a multidimensional problem.  HHS faces challenges&mdash;and opportunities&mdash;in each of the key areas of focus addressed below. </p>
+
+
+<p><a href="">Read more about the Ensuring Program Integrity in Medicare Parts A and B Challenge</a></p>
+<p><a href="">Download PDF of Challenges</a></p>
+
+
+
+<div id="whatsNewContainer" style="margin-left:-15px;">
+
+
+<div id="whatsNewButtonContainer">
+<a href="#" id="buttonNext"><span>Next</span></a>
+<a href="#" id="buttonPrev"><span>Prev</span></a>
+</div> 
+
+
+<div id="whatsNewSlides">
+       
+<div>
+<iframe width="540" height="290" scrolling="auto" src="./marquee01.html"></iframe>
+</div>   
+  
+<div>
+<iframe width="540" height="290" scrolling="auto" src="./marquee02.html"></iframe>
+</div> 
+  
+<div>
+<iframe width="540" height="290" scrolling="auto" src="./marquee03.html"></iframe>
+</div> 
+ 
+
+</div>
+
+<!-- <div id="buttonContainerCorner">
+<div id="buttonContainer"></div>
+</div> -->
+
+
+<!-- /closing slider -->
+</div>
+
+
+<h2>Progress in Addressing the Challenge</h2>
+
+<p>Overall, the Department has taken steps, including implementing many of OIG's recommendations, to combat Medicare waste, including fraud, resulting in cost savings, improved program operations, and enhanced protections for beneficiaries.  The Health Care Fraud and Abuse Control Program (a joint program of the Department, CMS, OIG, and the Department of Justice (DOJ) to fight waste, fraud, and abuse in Medicare and Medicaid) returned $7.70 for every $1 invested.  In FY 2014, OIG audits and investigations resulted in expected recoveries of $4.9 billion in improperly spent federal health care dollars.  In addition, OIG reported estimated savings of more than $15 billion from legislative, regulatory, and administrative actions supported by OIG recommendations.  </p>
+<p>CMS has moved to improve the integrity and accuracy of billing for numerous types of services.  For example, CMS implemented a provision of the <em>Affordable Care Act</em> that practitioners who certify Medicare patients as eligible for home health services must document their face-to-face encounters with those patients.  CMS modified this requirement, effective January 1, 2015, and is continuing to work to improve this requirement's low rates of compliance.  Additionally, CMS started a demonstration project that requires prior authorization for scooters and power wheelchairs in seven states with high incidences of fraud and improper payments, and in FY 2015 expanded this demonstration project to include an additional 12 states.  CMS continues to work to address hospital billing for short inpatient stays and outpatient observation stays, which significantly affects Medicare spending, beneficiary cost-sharing, and hospital revenue.  </p>
+<p>CMS reports that it is working to identify potential alternatives to the existing methodology used to pay for therapy services under the SNF Prospective Payment System (PPS).  CMS initiated the SNF PPS Payment Model Research project and reports that it is working to identify potential alternative SNF payment models for further analysis.</p>
+<p>In connection with the International Classification of Diseases, 10th Revision (ICD-10), CMS reports that it has established an ICD-10 Coordination Center for monitoring the implementation of ICD-10, identifying and triaging issues for resolution, and responding to inquiries.  It also has named an ICD-10 ombudsman to help receive and deal with provider issues.</p>
+<p>OIG noted reductions in Medicare billing and payments for certain services and geographic areas known for fraud risks.  For example, following law enforcement activities and administrative actions by CMS, billing and payments for home health services and community mental health services declined significantly in fraud hot spots.  CMS also instituted temporary moratoria on the enrollment of new home health agencies and ambulance transportation suppliers in select cities and known fraud hot spots.  Additionally, CMS continues to develop its Fraud Prevention System (FPS), which had a $133 million in adjusted actual and projected savings in its third implementation year, and represented a positive return on investment of $2.84 for every $1 spent that was <a href="http://oig.hhs.gov/oas/reports/region1/11400503.pdf">certified by OIG</a>. </p>
+<p>CMS reported improvements in its oversight and measurement of its contractors' performance and its follow-up on improper payment vulnerabilities that contractors identify.  The Department also continues to focus on resolving the backlog of Medicare appeals by providers.  CMS reports that it has taken steps toward this goal.</p>
+
+<h2>What Needs To Be Done</h2>
+<p>Despite progress in key areas, more needs to be done to protect Medicare from waste, including fraud.  CMS needs to better ensure that Medicare payments are accurate and appropriate.  When Medicare improper payments occur, CMS needs to identify and recover them in a timely manner.  CMS must also implement safeguards, as needed, to prevent recurrence.  CMS relies on contractors for most of these crucial functions; therefore, ensuring effective contractor performance is essential.  Finally, the Medicare appeals system needs fundamental changes to resolve appeals efficiently, effectively, and fairly.  OIG has recommended numerous actions to advance these outcomes.</p>
+
+
+<h2>Key OIG Resources</h2>
+<ul>
+<li>OIG Testimony, <a href="http://oig.hhs.gov/testimony/docs/2015/cantrell-032415.pdf">Fraud in Medicare</a>, March 2015</li>
+<li>OIG Testimony, <a href="http://oig.hhs.gov/testimony/docs/2014/cantrell_testimony_06252014.pdf">Medicare Program Integrity: Screening Out Errors, Fraud, and Abuse</a>, June 2014</li>
+<li>OIG Testimony, <a href="http://oig.hhs.gov/testimony/docs/2014/Ritchie_testimony_05202014.pdf">Medicare Mismanagement: Oversight of the Federal Government Efforts to Recapture Misspent Funds</a>, May 2014 </li>
+<li><a href="http://oig.hhs.gov/testimony/docs/2014/Ritchie_testimony_05202014.pdf">OIG Compendium of Unimplemented Recommendations</a>, March 2015 </li>
+<li>OIG Report, <a href="http://www.oig.hhs.gov/oei/reports/oei-02-13-00610.pdf">The Medicare Payment System for Skilled Nursing Facilities Needs To Be Reevaluated</a>, September 2015</li>
+</ul>
+
+<h2 id="footnotes">Footnotes</h2>
+<p><sup>2</sup>Institute of Medicine, <a target='_blank' href='http://iom.nationalacademies.org/Reports/2012/Best-Care-at-Lower-Cost-The-Path-to-Continuously-Learning-Health-Care-in-America.aspx'>Best Care at Lower Cost: The Path to Continuously Learning Health Care in America</a>, September 6, 2012.  The Institute of Medicine report includes fraud and abuse as components of waste.</p>
+        
+
+<h3 class="navigate-star"><a class="fancybox dynamic-size" href="./tmc-nav.asp?width=600&height=425">Navigate to Other Challenges</a></h3>
+				
+        
+        
+        
+        
+				</div><!-- leftContentInterior -->
+			</div>	<!-- leftSideInterior ends -->
+			<div id="rightSide">
+				<!--#include file="./tmc-nav-pop.asp" -->
+
+<div id="subNav">
+<div id="report-related">
+
+
+<img style="margin-bottom:30px; margin-top:20px;" src="./images/750-wasted.png" alt="$750 Billion Wasted" />
+<img style="margin-bottom:30px;" src="./images/49-spent.png" alt="$4.9 Billion Improperly Spent" />
+<img style="margin-bottom:20px;" src="./images/more-medicare.png" alt="More needs to be done to protect Medicare" />
+
+<div class="subNavBottom"></div>
+</div>
+</div><!-- subNav ends -->
+<div class="clear"></div>
+        
+
+				<div class="clearPadding"></div>
+			</div><!-- rightSide ends -->
+			<div class="clear"></div>
+		</div><!-- mainBody ends -->
+	</div><!-- textReset ends -->
+</div><!-- bodyContainer ends -->
+<div id="footerContainer">
+	<!--#include virtual="/layout/footer-top.asp" -->
+</div><!-- footerContainer ends -->
+<div id="footerBottomContainer">
+	<!-- #include virtual="/layout/footer-bottom.asp" -->
+</div><!-- footerBottomContainer -->
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-576033060eefebb8"></script>
+
+
+</body>
+</html>

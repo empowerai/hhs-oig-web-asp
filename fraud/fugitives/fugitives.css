@@ -1,0 +1,48 @@
+
+
+/* Styles for splash page */
+
+#outer_container_fugitives {background:black url(./images/main_background.jpg) top left; width:100%; border:  margin-top: 15px;}
+#outer_container_fugitives td {padding:3px 5px 5px 8px;}
+#outer_container_fugitives strong {color:#000;}
+dfn {font-style:normal; cursor:help;}
+
+.inner_container_fugitives {width:100%; margin-top: 15px;}
+#outer_container_fugitives .inner_container_fugitives td div.photo_text a {color:#000; border:0 !important; text-decoration:none;}
+#outer_container_fugitives .inner_container_fugitives td div.photo_text a:hover {color:#9B0000 !important; border:0 !important;}
+#outer_container_fugitives .inner_container_fugitives td {position:relative; padding:0 0 5px 0;}
+.photo {float:left; z-index:11; position:relative;}
+.photo_text {float:left !important; background:transparent url(./images/splash_text_bg.png); height:114px; line-height:1.2; 
+margin:3px 0 0 -10px; 
+*margin:-3px 0 0 -10px; 
+_margin:-3px 0 0 -10px; 
+padding:8px 0 0 12px; width:123px; z-index:10;}
+
+
+.captured_image {margin-left:-10px; margin-top:2px;}
+
+.text_intro {margin-bottom:10px !important; border:2px solid #DEDFDE; background:#CECBCE; margin:15px 3px 0 0; padding: 15px 15px 0 15px; line-height: 1.2; letter-spacing:.06; font-size:10pt}
+
+.mobile-only {display:none;}
+
+/* Styles for bio page */
+.bio_fugitives img {
+
+margin: 10px 0 10px 15px;
+float: right;
+
+}
+.bio_fugitives h1 {color:#1b164a; width:450px;}
+.bio_fugitives a {color:#6A1500; border-bottom:1px solid #6A1500}
+.bio_fugitives a:visited {color:#6A1500; border-bottom:1px solid #6A1500}
+.bio_fugitives .charge {font: bold 12pt Arial; padding:4px 4px 4px 7px; background:#e7e7e7; border-left:4px solid #1b164a; color:#1b164a; width: 475px;}
+
+.stay_link a {color:#003399 !important; border-bottom:1px solid #003399 !important;}
+.stay_link a:visited {color:#003399 !important; border-bottom:1px solid #003399 !important;}
+
+
+a img:hover {
+opacity: 1;
+-ms-filter: none; 
+filter: none;		
+}

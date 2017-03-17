@@ -1,0 +1,25 @@
+# modules
+node_modules/
+
+# logs
+/log
+*.log
+
+# assets
+*.pdf
+*.txt
+*.csv
+*.xls
+*.ppt
+*.mp3
+*.wmv
+*.zip
+
+# exec
+*.exe
+*.dll
+*.db
+*.backup
+*.lck
+*.config
+*.log

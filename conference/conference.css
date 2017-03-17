@@ -1,0 +1,166 @@
+body {padding:0; margin:0;}
+
+/* body {background-size: cover;background: url(./img/indian.jpg) fixed center center no-repeat; padding:0; margin:0;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+
+}
+@media screen and (max-width:480px) {
+body {background-size:cover; background: url(./img/mobile.jpg) fixed left top no-repeat; z-index:1000;}
+} */
+
+header {background:#282C34; width:100%; height:53px; margin:0; position:relative; z-index:1;}
+header p {color:white; float:left;margin:0; padding:15px;}
+
+nav {display:block; margin:0; padding:0; height:70px;}
+nav ul {margin:0; padding:0 0 0 0;} 
+nav ul li {display:block; color:white; padding:5px 10px; margin:0; text-align:left;}
+nav ul li a {color:white; transition:color linear 0.2s; text-decoration:none;}
+nav ul li a:hover {color:#46ACBF; }
+.oig {float:right;}
+.oig a {color:white;text-decoration:none;font-family:Arial; transition: color linear 0.5s}
+.oig a:hover {color:#46ACBF}
+@media screen and (max-width:480px) {
+.oig {float:left;}
+}
+/* @media screen and (max-width:480px) {
+nav {display:block; background:#282C34; margin:0; padding:0;}
+nav ul {margin:0; padding:0 0 0 0;} 
+nav ul li {display:block; color:white; padding:5px; width:100%;}
+} */
+.aboutoig {font-weight:normal; padding-top:70px; margin:0 auto; width:65%; color: #FFF;}
+.aboutoig a {color:white;text-decoration:none;transition: color linear 0.5s}
+.aboutoig a:hover {color:#46ACBF}
+
+#nav-button {color:#fff; font-weight:bold; text-decoration:none;}
+
+h1.title {text-align:center; font-size:2em; padding-top:100px; color:#fff; font-family:Arial;text-shadow: 2px 2px 4px #4D4D4D; width:75%; margin:0 auto;}
+@media screen and (max-width:480px) {
+h1.title {padding-top:150px;}
+}
+
+h2.subtitle {text-align:center; font-size:1.2em; padding-top:10px; color:#fff; font-family:Arial;text-shadow: 2px 2px 4px #333333; width:75%; margin:0 auto;}
+
+@media screen and (max-width:800px) {
+#oig-logo {width:200px;}
+}
+
+@media screen and (max-width:450px) {
+#oig-logo {width:100px;}
+}
+
+article {background:#E0DBD7; margin:300px 0; padding:70px 0;opacity: 0.9;}
+article h1 {font-size:20pt;width:65%;margin: 10px auto; color:#282C34; font-family:Arial;}
+article h2 {font-size:16pt;width:65%;margin: 10px auto;  color:#282C34; font-family:Arial;}
+article h3 {font-size:12pt;width:65%;margin: 10px auto;  color:#282C34; font-family:Arial; padding-top:15px; }
+.location {color:#BCE159; padding:20px 0}
+
+
+article p, footer p {width:65%; margin: 10px auto; padding: 10px 10px 0 10px; color:#282C34; font-family:Arial; line-height:1.8;}
+article a:link, article a:visited {transition:color linear 0.2s; color:#005F73; font-family:Arial;}
+article a:hover, article a.add-this:hover  {color:#AA6A23;} 
+article a.add-this {color:#BCE159; transition:color linear 0.2s;  width:65%; margin:0 auto; display:block}
+
+article a.navigate {transition:color linear 0.2s; display:block; padding:10px; text-align:center; color:#4B4B64; font-weight:bold; text-decoration:none; font-family:Arial;}
+article a.navigate:hover {color:#46ACBF}
+
+/* article .agenda ul li {width:65%; margin:10px auto;} */
+
+.agenda {margin:10px auto 25px auto; width:65%; padding-left:50px; }
+.agenda ul {margin-left:10px; padding-left:0;}
+.agenda ul li {margin-left:0; color:#282C34; font-family:Arial; line-height:1.8;}
+@media screen and (max-width:480px) {
+.agenda ul {padding-left:0;}
+.agenda ul li { color:#282C34; font-family:Arial; line-height:1.8; padding-left:0;}
+}
+.travel {margin:10px auto; width:65%; font-family:Arial; line-height:1.8;}
+
+footer {background:#282C34; min-height:300px; margin:0; padding-bottom:20px;}
+footer p {color: #fff}
+
+.exit {cursor:help;}
+
+
+/* Important styles */
+#toggle {
+  display: block;
+  width: 28px;
+  height: 30px;
+  /* margin: 30px 10px; */
+  padding-top:20px;
+  padding-left:10px;
+}
+
+@media screen and (max-width:480px) {
+#toggle, #menu  {float:right;}
+#toggle {padding-right:20px;}
+#menu {clear:both}
+}
+
+#toggle span:after,
+#toggle span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -9px;
+}
+#toggle span:after{
+  top: 9px;
+}
+#toggle span {
+  position: relative;
+  display: block;
+}
+
+#toggle span,
+#toggle span:after,
+#toggle span:before {
+  width: 100%;
+  height: 5px;
+  background-color: #fff;
+  opacity:0.7;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+  border-radius: 2px;
+}
+
+/* on activation */
+#toggle.on span {
+  background-color: transparent;
+}
+#toggle.on span:before {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+#toggle.on span:after {
+  transform: rotate(-45deg) translate(7px, -8px);
+}
+#toggle.on + #menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* menu appearance*/
+#menu {
+  position: relative;
+  color: #999;
+  width: 100px;
+  padding: 10px;
+  /* margin: auto; */
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  text-align: center;
+  border-radius: 4px;
+  background: #282C34;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+  /* just for this demo */
+  opacity: 0;
+/*   visibility: hidden; */
+  transition: opacity .4s;
+}
+#menu:after {
+  position: absolute;
+  top: -15px;
+  left: 95px;
+  content: "";
+  display: block;
+}
