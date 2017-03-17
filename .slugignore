@@ -1,0 +1,23 @@
+# logs
+/log
+*.log
+
+# assets
+/assets
+*.pdf
+*.txt
+*.csv
+*.xls
+*.ppt
+*.mp3
+*.wmv
+*.zip
+
+# exec
+*.exe
+*.dll
+*.db
+*.backup
+*.lck
+*.config
+*.log
