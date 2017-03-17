@@ -6,7 +6,7 @@
 				<h2>About OIG<br /><br /></h2>
 				<ul>
 				<ul>
-							<li><a href="/about-oig/about-us/index.asp">About Us</a></li>
+							<li><a href="/about-oig/about-us/index.asp">About HHS OIG</a></li>
 							<li><a href="/about-oig/about-inspector-general/index.asp">About the Inspector General</a></li>
 							<li><a href="/about-oig/organization-chart/index.asp">Organization Chart</a></li>
 							<li><a href="/about-oig/careers/index.asp">Careers</a></li>
