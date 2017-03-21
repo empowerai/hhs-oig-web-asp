@@ -7,6 +7,7 @@
 */
 
 //*************************************************************
+// required
 
 require('dotenv').config();
 
@@ -26,13 +27,13 @@ const AWS = require('aws-sdk');
 //*************************************************************
 // AWS
 
-const BUCKETEER_AWS_ACCESS_KEY_ID =  process.env.BUCKETEER_AWS_ACCESS_KEY_ID;
-const BUCKETEER_AWS_SECRET_ACCESS_KEY = process.env.BUCKETEER_AWS_SECRET_ACCESS_KEY;
-const BUCKETEER_BUCKET_NAME = process.env.BUCKETEER_BUCKET_NAME;
+const AWS_ACCESS_KEY_ID = process.env.BUCKETEER_AWS_ACCESS_KEY_ID;
+const AWS_SECRET_ACCESS_KEY = process.env.BUCKETEER_AWS_SECRET_ACCESS_KEY;
+const AWS_BUCKET_NAME = process.env.BUCKETEER_BUCKET_NAME;
 
 AWS.config.update({
-    accessKeyId: BUCKETEER_AWS_ACCESS_KEY_ID,
-    secretAccessKey: BUCKETEER_AWS_SECRET_ACCESS_KEY
+    accessKeyId: AWS_ACCESS_KEY_ID,
+    secretAccessKey: AWS_SECRET_ACCESS_KEY
 });
 
 const s3 = new AWS.S3();
@@ -71,22 +72,23 @@ app.use(ssi({
 app.use(['*.pdf', '*.txt', '*.csv', '*.xls', '*.ppt'], function (req, res, next) {
 
 	let file = req.originalUrl;
-	let ext = path.extname(file);
-	let key = (ext + file).substring(1);
+	let ext = path.extname(file).substring(1);
+	let key = 'assets/'+ ext + file;
 	
-	console.log('file : ' + file);   
-	console.log('ext : ' + ext); 
+	//console.log('file : ' + file);   
+	//console.log('ext : ' + ext); 
 	console.log('key : ' + key); 
 
 	let params = {
-		Bucket: BUCKETEER_BUCKET_NAME, 
+		Bucket: AWS_BUCKET_NAME, 
 		Key: key
 	};
 
 	s3.getObject(params, function(err, data) {
 		if (err) {
-			console.error(err, err.stack); 
-			res.redirect(404, '/errors/404.asp');				
+			//console.error(err, err.stack); 
+			//res.redirect(404, '/errors/404.asp');
+			res.redirect('/errors/404.asp');					
 		}
 	 	else {     
  			//console.log(data);   
@@ -100,7 +102,8 @@ app.use(['*.pdf', '*.txt', '*.csv', '*.xls', '*.ppt'], function (req, res, next)
 app.use(express.static(__dirname));
 
 app.get('*', function(req, res){
-	res.redirect(404, '/errors/404.asp');
+	//res.redirect(404, '/errors/404.asp');
+	res.redirect('/errors/404.asp');	
 });
 
 //*************************************************************
